@@ -1,9 +1,10 @@
+
 import requests
 import json
 import re
 
 
-def fetch_cpu_data():
+def fetch_cpu_list_json():
     url = "https://cpu.zol.com.cn/router.php"
     params = {
         "c": "Tianti_Cpu",
@@ -30,25 +31,32 @@ def fetch_cpu_data():
         return None
 
 
-def parse_and_print_cpu_data(data):
+def parse_cpu_list(data):
     # 定义字段名
-    fields = ["综合", "多核", "单核", "游戏"]
+    field_map = {
+        "colligate": "综合",
+        "multiCore": "多核",
+        "singleCore": "单核",
+        "game": "游戏"
+    }
+    unique_proIds = {}
 
     # 遍历每个字段并提取对应数据
-    for field in fields:
-        print(f"\n--- {field} 排名 ---")
+    for field, title in field_map.items():
+        print(f"\n--- {title} 排名 ---")
         field_data = data.get(field, [])
         if not field_data:
-            print(f"{field} 数据为空或不存在")
+            print(f"{title} 数据为空或不存在")
             continue
 
         for cpu in field_data:
+            unique_proIds = cpu['proId']
             print(f"proId: {cpu['proId']}, 型号: {cpu['model']}, 得分: {cpu.get('score', '无')}, 排名: {cpu.get('rank', '无')}, 厂商: {'Intel' if cpu.get('firm') == '1' else 'AMD'}")
+    return unique_proIds
 
 
 if __name__ == "__main__":
-    # 获取 JSON 数据
-    cpu_data = fetch_cpu_data()
-    if cpu_data:
-        # 解析并打印数据
-        parse_and_print_cpu_data(cpu_data)
+    cpu_list_data = fetch_cpu_list_json()
+    if cpu_list_data:
+        unique_proIds = parse_cpu_list(cpu_list_data)
+        print(f"\n共有 {len(unique_proIds)} 个 CPU 产品")
