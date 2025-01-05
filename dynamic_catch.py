@@ -31,34 +31,19 @@ def fetch_cpu_data():
 
 
 def parse_and_print_cpu_data(data):
-    # 解析综合性能数据
-    colligate = data.get("colligate", [])
-    print("综合性能排名：")
-    for cpu in colligate:
-        print(
-            f"排名: {cpu['rank']}, 型号: {cpu['model']}, 得分: {cpu['score']}, 厂商: {'Intel' if cpu['firm'] == '1' else 'AMD'}")
-    print("\n")
+    # 定义字段名
+    fields = ["综合", "多核", "单核", "游戏"]
 
-    # 解析多核性能数据
-    multi_core = data.get("multiCore", [])
-    print("多核性能排名：")
-    for cpu in multi_core:
-        print(f"排名: {cpu['rank']}, 型号: {cpu['model']}, 得分: {cpu['score']}")
-    print("\n")
+    # 遍历每个字段并提取对应数据
+    for field in fields:
+        print(f"\n--- {field} 排名 ---")
+        field_data = data.get(field, [])
+        if not field_data:
+            print(f"{field} 数据为空或不存在")
+            continue
 
-    # 解析单核性能数据
-    single_core = data.get("singleCore", [])
-    print("单核性能排名：")
-    for cpu in single_core:
-        print(f"排名: {cpu['rank']}, 型号: {cpu['model']}, 得分: {cpu['score']}")
-    print("\n")
-
-    # 解析游戏性能数据
-    game = data.get("game", [])
-    print("游戏性能排名：")
-    for cpu in game:
-        print(f"排名: {cpu['rank']}, 型号: {cpu['model']}, 得分: {cpu['score']}")
-    print("\n")
+        for cpu in field_data:
+            print(f"proId: {cpu['proId']}, 型号: {cpu['model']}, 得分: {cpu.get('score', '无')}, 排名: {cpu.get('rank', '无')}, 厂商: {'Intel' if cpu.get('firm') == '1' else 'AMD'}")
 
 
 if __name__ == "__main__":
