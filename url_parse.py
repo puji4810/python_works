@@ -3,7 +3,7 @@ import requests
 import json
 import re
 from bs4 import BeautifulSoup
-from selenium import webdriver
+import pandas as pd
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
@@ -107,9 +107,7 @@ def fetch_cpu_data_json(product_ids):
 
 
 def show_cpu_data(cpu_data, cpu_data_json):
-    for cpu in cpu_data:
-        print(cpu)
-
+    data_list = []
     for cpu_json in cpu_data_json:
         # 从 param 提取基本信息
         param = cpu_json.get("param", {})
@@ -136,23 +134,27 @@ def show_cpu_data(cpu_data, cpu_data_json):
             game_rank = rankings.get("游戏", "无")
             colligate_rank = rankings.get("综合", "无")
 
-            # 显示厂商和各类排名
-            print(f"厂商: {firm}")
-            print(f"单核排名: {single_rank}")
-            print(f"多核排名: {multi_rank}")
-            print(f"游戏排名: {game_rank}")
-            print(f"综合排名: {colligate_rank}")
-
-        print(f"产品名称: {product_name}")
-        print(f"系列: {series}")
-        print(f"核心代号: {core}")
-        print(f"主频: {frequency}")
-        print(f"核心/线程: {core_thread}")
-        print(f"功耗: {tdp}")
-        print(f"集成显卡: {graphics}")
-        print(f"评分: {score}")
-        print(f"价格: {price}")
-        print()
+            # 保存到 data_list
+            data_list.append({
+                "产品名称": product_name,
+                "系列": series,
+                "核心代号": core,
+                "主频": frequency,
+                "核心/线程": core_thread,
+                "功耗": tdp,
+                "集成显卡": graphics,
+                "评分": score,
+                "价格": price,
+                "厂商": firm,
+                "单核排名": single_rank,
+                "多核排名": multi_rank,
+                "游戏排名": game_rank,
+                "综合排名": colligate_rank
+            })
+    df = pd.DataFrame(data_list)
+    df['综合排名'] = pd.to_numeric(df['综合排名'], errors='coerce')
+    df = df.sort_values(by='综合排名', ascending=True)
+    return df
 
 
 def url_parse_goods(url):
