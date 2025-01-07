@@ -93,5 +93,5 @@ if __name__ == '__main__':
     app, df = dash_init()
     sd.save_as_excel(df)
     sd.matplotlib_analysis(df)
-    app.run(hott='0.0.0.0', port='8050')
+    app.run(host='0.0.0.0', port='8050')
     app.run_server(debug=True)
