@@ -6,7 +6,6 @@ import plotly.express as px
 
 
 def dash_init():
-    
     """
     初始化 Dash 应用程序并设置包含各种可视化的布局。
     返回：
@@ -89,8 +88,10 @@ def dash_init():
 
     return app, df
 
+
 if __name__ == '__main__':
     app, df = dash_init()
     sd.save_as_excel(df)
     sd.matplotlib_analysis(df)
+    app.run(hott='0.0.0.0', port='8050')
     app.run_server(debug=True)
