@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>save_data module &#8212; cpu_data_fetch 1.0 文档</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=686e5160" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <script src="_static/documentation_options.js?v=f115507d"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/translations.js?v=beaddf03"></script>
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="next" title="see module" href="see.html" />
+    <link rel="prev" title="cpu_data_fetch documentation" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="module-save_data">
+<span id="save-data-module"></span><h1>save_data module<a class="headerlink" href="#module-save_data" title="Link to this heading">¶</a></h1>
+<dl class="py function">
+<dt class="sig sig-object py" id="save_data.matplotlib_analysis">
+<span class="sig-prename descclassname"><span class="pre">save_data.</span></span><span class="sig-name descname"><span class="pre">matplotlib_analysis</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/save_data.html#matplotlib_analysis"><span class="viewcode-link"><span class="pre">[源代码]</span></span></a><a class="headerlink" href="#save_data.matplotlib_analysis" title="Link to this definition">¶</a></dt>
+<dd><p>生成并保存两个基于提供的 DataFrame 的图表。
+参数:
+df (pandas.DataFrame): 包含以下列的 DataFrame:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>&quot;评分&quot;: 用于直方图的评分。</p></li>
+<li><p>&quot;单核排名&quot;: 用于散点图的单核排名。</p></li>
+<li><p>&quot;多核排名&quot;: 用于散点图的多核排名。</p></li>
+<li><p>&quot;游戏排名&quot;: 用于散点图的游戏排名。</p></li>
+</ul>
+</div></blockquote>
+<p>该函数创建并保存以下图表:
+1. &quot;评分&quot; 列的直方图，保存为 &quot;ranking_hist.png&quot;。
+2. &quot;单核排名&quot; 对 &quot;多核排名&quot; 的散点图，&quot;游戏排名&quot; 作为颜色标度，保存为 &quot;ranking_scatter.png&quot;。
+两个图表都使用特定字体作为标题和标签，并包含网格线以提高可读性。</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="save_data.save_as_excel">
+<span class="sig-prename descclassname"><span class="pre">save_data.</span></span><span class="sig-name descname"><span class="pre">save_as_excel</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/save_data.html#save_as_excel"><span class="viewcode-link"><span class="pre">[源代码]</span></span></a><a class="headerlink" href="#save_data.save_as_excel" title="Link to this definition">¶</a></dt>
+<dd><p>将给定的 DataFrame 保存为 Excel 文件。
+参数:
+df (pandas.DataFrame): 要保存的 DataFrame。
+返回:
+无
+副作用:
+将 DataFrame 保存到当前工作目录中的名为 'cpu_data.xlsx' 的文件。
+打印一条消息，指示数据已保存。</p>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">cpu_data_fetch</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="提交" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>导航</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">save_data module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#save_data.matplotlib_analysis"><code class="docutils literal notranslate"><span class="pre">matplotlib_analysis()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#save_data.save_as_excel"><code class="docutils literal notranslate"><span class="pre">save_as_excel()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="see.html">see module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="url_parse.html">url_parse module</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="上一章">cpu_data_fetch documentation</a></li>
+      <li>Next: <a href="see.html" title="下一章">see module</a></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2025, pj.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.1.3</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/save_data.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

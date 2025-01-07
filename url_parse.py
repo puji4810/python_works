@@ -16,6 +16,24 @@ headers = {
 
 
 def fetch_cpu_list_json():
+    """
+    从指定的 URL 获取 CPU 列表的 JSON 数据。
+
+    该函数向 URL "https://cpu.zol.com.cn/router.php" 发送带有特定参数和头部的 GET 请求。
+    它期望一个 JSONP 响应并从中提取 JSON 数据。
+
+    返回:
+        dict: 如果请求成功且 JSON 数据提取成功，则返回包含 JSON 数据的字典。
+        None: 如果请求失败或无法提取 JSON 数据。
+
+    异常:
+        None
+
+    示例:
+    >>> cpu_list = fetch_cpu_list_json()
+    >>> if cpu_list:
+    >>>     print(cpu_list)
+    """
     url = "https://cpu.zol.com.cn/router.php"
     params = {
         "c": "Tianti_Cpu",
@@ -43,7 +61,21 @@ def fetch_cpu_list_json():
 
 
 def parse_cpu_list(data):
-    # 定义字段名
+    """
+    解析 CPU 数据列表并按 CPU ID 组织数据。
+    
+    参数:
+        data (dict): 包含按字段分类的 CPU 数据的字典，例如 "colligate", "multiCore", 
+                     "singleCore", 和 "game"。每个字段映射到一个字典列表，每个字典
+                     代表一个 CPU，包含 'proId', 'model', 'firm', 'rank' 等键。
+    
+    返回:
+        tuple: 包含以下内容的元组:
+            - cpu_data (dict): 一个字典，每个键是 CPU ID (proId)，值是另一个字典，
+                               包含 'proId', 'model', 'firm', 和 'rankings' 键。
+                               'rankings' 键映射到另一个字典，标题为键，排名为值。
+            - unique_proIds (set): 数据中找到的唯一 CPU ID (proId) 集合。
+    """
     field_map = {
         "colligate": "综合",
         "multiCore": "多核",
@@ -53,7 +85,6 @@ def parse_cpu_list(data):
     cpu_data = {}
     unique_proIds = set()
 
-    # 遍历每个字段并提取对应数据
     for field, title in field_map.items():
         # print(f"\n--- {title} 排名 ---")
         field_data = data.get(field, [])
@@ -68,9 +99,8 @@ def parse_cpu_list(data):
                     "proId": proId,
                     "model": cpu['model'],
                     "firm": cpu.get('firm', "未知厂商"),
-                    "rankings": {}  # 用于存储每个分类的排名
+                    "rankings": {}
                 }
-            # 记录当前字段的排名
             cpu_data[proId]["rankings"][title] = cpu.get("rank", "无")
             unique_proIds.add(cpu['proId'])
             # print(f"proId: {cpu['proId']}, 型号: {cpu['model']}, 得分: {cpu.get('score', '无')}, 排名: {cpu.get('rank', '无')}, 厂商: {'Intel' if cpu.get('firm') == '1' else 'AMD'}")
@@ -78,6 +108,23 @@ def parse_cpu_list(data):
 
 
 def fetch_cpu_data_json(product_ids):
+    """
+    获取指定产品 ID 列表的 CPU 数据（JSON 格式）。
+    
+    参数:
+        product_ids (list): 需要获取 CPU 数据的产品 ID 列表。
+    
+    返回:
+        list: 包含 CPU 数据的字典列表（JSON 格式）。
+    
+    异常:
+        requests.exceptions.RequestException: 如果 HTTP 请求有问题。
+    
+    示例:
+        product_ids = [12345, 67890]
+        cpu_data = fetch_cpu_data_json(product_ids)
+        print(cpu_data)
+    """
     base_url = "https://cpu.zol.com.cn/router.php"
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
@@ -107,6 +154,32 @@ def fetch_cpu_data_json(product_ids):
 
 
 def show_cpu_data(cpu_data, cpu_data_json):
+    """
+    展示CPU的详细信息
+
+    参数:
+    cpu_data (dict): 包含CPU详细信息的字典，键为产品ID，值为包含厂商和排名信息的字典。
+    cpu_data_json (list): 包含CPU JSON数据的列表，每个元素为一个CPU的JSON对象。
+
+    返回:
+    pandas.DataFrame: 包含CPU详细信息的数据框，按综合排名升序排序。
+
+    数据框列:
+    - 产品名称: CPU的产品名称
+    - 系列: CPU的系列
+    - 核心代号: CPU的核心代号
+    - 主频: CPU的主频
+    - 核心/线程: CPU的核心和线程数
+    - 功耗: CPU的功耗
+    - 集成显卡: CPU的集成显卡信息
+    - 评分: CPU的评分
+    - 价格: CPU的价格
+    - 厂商: CPU的厂商 (Intel 或 AMD)
+    - 单核排名: CPU的单核性能排名
+    - 多核排名: CPU的多核性能排名
+    - 游戏排名: CPU的游戏性能排名
+    - 综合排名: CPU的综合性能排名
+    """
     data_list = []
     for cpu_json in cpu_data_json:
         # 从 param 提取基本信息
@@ -158,6 +231,28 @@ def show_cpu_data(cpu_data, cpu_data_json):
 
 
 def url_parse_goods(url):
+    """
+    解析给定URL中的商品名称和价格。
+
+    参数:
+        url (str): 要解析的网页URL。
+
+    返回:
+        None: 此函数将商品名称和价格打印到控制台。
+
+    异常:
+        requests.exceptions.RequestException: 如果HTTP请求有问题。
+
+    示例:
+        url_parse_goods('http://example.com/products')
+
+    该函数执行以下步骤:
+    1. 发送GET请求到提供的URL。
+    2. 如果请求成功（状态码200），使用BeautifulSoup解析HTML内容。
+    3. 查找所有<p>标签并遍历它们以提取商品名称和价格。
+    4. 将商品名称和价格打印到控制台。
+    5. 如果请求失败，打印响应的状态码。
+    """ 
     response = requests.get(url, headers=headers)
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, 'html.parser')
@@ -178,13 +273,16 @@ def url_parse_goods(url):
         print("请求失败，状态码：", response.status_code)
 
 
-def find_page(count, url="https://detail.zol.com.cn/cpu"):
-    if count != 0:
-        url = f"{url}/{count}.html"
-    url_parse_goods(url)
-
-
 def find_pages(count, url="https://detail.zol.com.cn/cpu"):
+    """
+    参数:
+        count (int): 要查找的页数。
+        url (str, optional): 基础URL。默认为 "https://detail.zol.com.cn/cpu"。
+
+    返回:
+        None
+    """
+
     for i in range(0, count):
         print("page", i + 1)
         if i != 0:
