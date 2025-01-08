@@ -1,5 +1,10 @@
 import matplotlib.pyplot as plt
 import pandas as pd
+from matplotlib import font_manager
+
+# 加载支持中文的字体
+font_path = "./font.ttc"
+font = font_manager.FontProperties(fname=font_path)
 
 
 def save_as_excel(df):
@@ -35,9 +40,9 @@ def matplotlib_analysis(df):
 
     plt.figure(figsize=(10, 6))
     plt.hist(df["评分"], bins=20, color='skyblue', edgecolor='black')
-    plt.title("CPU 评分分布直方图")
-    plt.xlabel("评分")
-    plt.ylabel("数量")
+    plt.title("CPU 评分分布直方图", fontproperties=font)
+    plt.xlabel("评分", fontproperties=font)
+    plt.ylabel("数量", fontproperties=font)
     plt.grid(axis='y', linestyle='--', alpha=0.8)
     plt.savefig("ranking_hist.png")
     print("评分直方图已保存")
@@ -45,11 +50,11 @@ def matplotlib_analysis(df):
     plt.figure(figsize=(10, 6))
     scatter = plt.scatter(df["单核排名"], df["多核排名"], c=df["游戏排名"],
                           cmap="coolwarm", alpha=0.8)
-    plt.title("CPU 单核、多核、游戏排名散点图")
-    plt.xlabel("单核排名")
-    plt.ylabel("多核排名")
+    plt.title("CPU 单核、多核、游戏排名散点图", fontproperties=font)
+    plt.xlabel("单核排名", fontproperties=font)
+    plt.ylabel("多核排名", fontproperties=font)
     colorbar = plt.colorbar(scatter)
-    colorbar.set_label("游戏排名")
+    colorbar.set_label("游戏排名", fontproperties=font)
     plt.grid(True, linestyle='--', alpha=0.8)
     plt.savefig("ranking_scatter.png")
     print("单核、多核、游戏排名散点图已保存")
