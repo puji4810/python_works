@@ -1,0 +1,3586 @@
+$.getAllList({
+  "colligate": [
+    {
+      "firm": "2",
+      "proId": "2018964",
+      "model": "AMD Ryzen 9 9950X",
+      "score": "405.8",
+      "rank": 1,
+      "ratio": "99.3%"
+    },
+    {
+      "firm": "1",
+      "proId": "2110066",
+      "model": "Intel \u9177\u777f Ultra 9 285K",
+      "score": "389.2",
+      "rank": 2,
+      "ratio": "98.6%"
+    },
+    {
+      "firm": "1",
+      "proId": "1805095",
+      "model": "Intel \u9177\u777f i9 14900K",
+      "score": "382.8",
+      "rank": 3,
+      "ratio": "97.9%"
+    },
+    {
+      "firm": "2",
+      "proId": "2018965",
+      "model": "AMD Ryzen 9 9900X",
+      "score": "380.2",
+      "rank": 4,
+      "ratio": "97.2%"
+    },
+    {
+      "firm": "2",
+      "proId": "1424741",
+      "model": "AMD Ryzen 9 7950X",
+      "score": "379.8",
+      "rank": 5,
+      "ratio": "96.5%"
+    },
+    {
+      "firm": "1",
+      "proId": "1428844",
+      "model": "Intel \u9177\u777f i9 13900K",
+      "score": "379.5",
+      "rank": 6,
+      "ratio": "95.8%"
+    },
+    {
+      "firm": "2",
+      "proId": "2113342",
+      "model": "AMD Ryzen 7 9800X3D\uff08\u6e38\u620f\uff09",
+      "score": "379.0",
+      "rank": 7,
+      "ratio": "95.1%"
+    },
+    {
+      "firm": "2",
+      "proId": "2018966",
+      "model": "AMD Ryzen 7 9700X",
+      "score": "368.7",
+      "rank": 8,
+      "ratio": "94.4%"
+    },
+    {
+      "firm": "2",
+      "proId": "1440581",
+      "model": "AMD Ryzen 9 7950X3D(\u6e38\u620f\uff09",
+      "score": "368.7",
+      "rank": 9,
+      "ratio": "93.7%"
+    },
+    {
+      "firm": "1",
+      "proId": "1814492",
+      "model": "Intel \u9177\u777f i7 14700K",
+      "score": "367.8",
+      "rank": 10,
+      "ratio": "93%"
+    },
+    {
+      "firm": "2",
+      "proId": "1296984",
+      "model": "AMD Ryzen ThreadRipper 3970X",
+      "score": "338.0",
+      "rank": 11,
+      "ratio": "92.3%"
+    },
+    {
+      "firm": "2",
+      "proId": "1424742",
+      "model": "AMD Ryzen 9 7900X",
+      "score": "316.7",
+      "rank": 12,
+      "ratio": "91.6%"
+    },
+    {
+      "firm": "1",
+      "proId": "1428845",
+      "model": "Intel \u9177\u777f i7 13700K",
+      "score": "312.0",
+      "rank": 13,
+      "ratio": "90.9%"
+    },
+    {
+      "firm": "2",
+      "proId": "1296983",
+      "model": "AMD Ryzen ThreadRipper 3960X",
+      "score": "288.6",
+      "rank": 14,
+      "ratio": "90.2%"
+    },
+    {
+      "firm": "2",
+      "proId": "1440585",
+      "model": "AMD Ryzen 7 7800X3D\uff08\u6e38\u620f\uff09",
+      "score": "284.8",
+      "rank": 15,
+      "ratio": "89.5%"
+    },
+    {
+      "firm": "1",
+      "proId": "1356715",
+      "model": "Intel \u9177\u777f i9 12900K",
+      "score": "276.2",
+      "rank": 16,
+      "ratio": "88.8%"
+    },
+    {
+      "firm": "2",
+      "proId": "1342304",
+      "model": "AMD Ryzen 9 5950X",
+      "score": "274.6",
+      "rank": 17,
+      "ratio": "88.1%"
+    },
+    {
+      "firm": "2",
+      "proId": "2018967",
+      "model": "AMD Ryzen 5 9600X",
+      "score": "272.7",
+      "rank": 18,
+      "ratio": "87.4%"
+    },
+    {
+      "firm": "1",
+      "proId": "1929614",
+      "model": "Intel \u9177\u777f i5 14600K",
+      "score": "271.8",
+      "rank": 19,
+      "ratio": "86.7%"
+    },
+    {
+      "firm": "1",
+      "proId": "1428846",
+      "model": "Intel \u9177\u777f i5 13600K",
+      "score": "266.1",
+      "rank": 20,
+      "ratio": "86%"
+    },
+    {
+      "firm": "2",
+      "proId": "1340449",
+      "model": "AMD Ryzen 9 5900X",
+      "score": "244.8",
+      "rank": 21,
+      "ratio": "85.3%"
+    },
+    {
+      "firm": "2",
+      "proId": "1424745",
+      "model": "AMD Ryzen 7 7700X",
+      "score": "244.1",
+      "rank": 22,
+      "ratio": "84.6%"
+    },
+    {
+      "firm": "2",
+      "proId": "1396433",
+      "model": "AMD Ryzen 7 5800X3D",
+      "score": "236.2",
+      "rank": 23,
+      "ratio": "83.9%"
+    },
+    {
+      "firm": "2",
+      "proId": "1367038",
+      "model": "AMD Ryzen 5 7600X",
+      "score": "214.9",
+      "rank": 24,
+      "ratio": "83.2%"
+    },
+    {
+      "firm": "2",
+      "proId": "1276702",
+      "model": "AMD Ryzen 9 3900X",
+      "score": "206.2",
+      "rank": 25,
+      "ratio": "82.5%"
+    },
+    {
+      "firm": "1",
+      "proId": "1295319",
+      "model": "Intel \u9177\u777fi9 10980XE",
+      "score": "206.1",
+      "rank": 26,
+      "ratio": "81.8%"
+    },
+    {
+      "firm": "2",
+      "proId": "1227458",
+      "model": "AMD Ryzen Threadripper 2990WX",
+      "score": "205.9",
+      "rank": 27,
+      "ratio": "81.1%"
+    },
+    {
+      "firm": "1",
+      "proId": "1172351",
+      "model": "Intel \u9177\u777fi9 7980XE",
+      "score": "203.5",
+      "rank": 28,
+      "ratio": "80.4%"
+    },
+    {
+      "firm": "2",
+      "proId": "1227460",
+      "model": "AMD Ryzen Threadripper 2970WX",
+      "score": "202.5",
+      "rank": 29,
+      "ratio": "79.7%"
+    },
+    {
+      "firm": "1",
+      "proId": "1393370",
+      "model": "Intel \u9177\u777f i5 12600K",
+      "score": "201.0",
+      "rank": 30,
+      "ratio": "79%"
+    },
+    {
+      "firm": "2",
+      "proId": "1342130",
+      "model": "AMD Ryzen 7 5800X",
+      "score": "198.6",
+      "rank": 31,
+      "ratio": "78.3%"
+    },
+    {
+      "firm": "1",
+      "proId": "1307608",
+      "model": "Intel \u9177\u777fi9 10900K",
+      "score": "193.1",
+      "rank": 32,
+      "ratio": "77.6%"
+    },
+    {
+      "firm": "1",
+      "proId": "1350558",
+      "model": "Intel \u9177\u777fi9 11900K",
+      "score": "188.9",
+      "rank": 33,
+      "ratio": "76.9%"
+    },
+    {
+      "firm": "2",
+      "proId": "1355716",
+      "model": "AMD Ryzen 7 5700G",
+      "score": "185.8",
+      "rank": 34,
+      "ratio": "76.2%"
+    },
+    {
+      "firm": "1",
+      "proId": "1354876",
+      "model": "Intel \u9177\u777fi7 11700K",
+      "score": "176.4",
+      "rank": 35,
+      "ratio": "75.5%"
+    },
+    {
+      "firm": "1",
+      "proId": "1276748",
+      "model": "Intel \u9177\u777fi9 9900KS",
+      "score": "175.1",
+      "rank": 36,
+      "ratio": "74.8%"
+    },
+    {
+      "firm": "1",
+      "proId": "1293662",
+      "model": "Intel \u9177\u777fi9 10900X",
+      "score": "171.1",
+      "rank": 37,
+      "ratio": "74.1%"
+    },
+    {
+      "firm": "1",
+      "proId": "1299169",
+      "model": "Intel \u9177\u777fi7 10700K",
+      "score": "169.5",
+      "rank": 38,
+      "ratio": "73.4%"
+    },
+    {
+      "firm": "1",
+      "proId": "1233484",
+      "model": "Intel \u9177\u777fi9 9900K",
+      "score": "168.3",
+      "rank": 39,
+      "ratio": "72.7%"
+    },
+    {
+      "firm": "1",
+      "proId": "1172347",
+      "model": "Intel \u9177\u777fi9 7900X",
+      "score": "164.9",
+      "rank": 40,
+      "ratio": "72%"
+    },
+    {
+      "firm": "2",
+      "proId": "1342305",
+      "model": "AMD Ryzen 5 5600X",
+      "score": "162.9",
+      "rank": 41,
+      "ratio": "71.3%"
+    },
+    {
+      "firm": "2",
+      "proId": "1276700",
+      "model": "AMD Ryzen 7 3700X",
+      "score": "161.5",
+      "rank": 42,
+      "ratio": "70.6%"
+    },
+    {
+      "firm": "2",
+      "proId": "1173435",
+      "model": "AMD Ryzen Threadripper 1950X",
+      "score": "161.1",
+      "rank": 43,
+      "ratio": "69.9%"
+    },
+    {
+      "firm": "2",
+      "proId": "1227461",
+      "model": "AMD Ryzen Threadripper 2920X",
+      "score": "160.8",
+      "rank": 44,
+      "ratio": "69.2%"
+    },
+    {
+      "firm": "1",
+      "proId": "1360148",
+      "model": "Intel \u9177\u777fi5 11600K",
+      "score": "160.7",
+      "rank": 45,
+      "ratio": "68.5%"
+    },
+    {
+      "firm": "2",
+      "proId": "1366838",
+      "model": "AMD Ryzen 5 5600G",
+      "score": "156.7",
+      "rank": 46,
+      "ratio": "67.8%"
+    },
+    {
+      "firm": "2",
+      "proId": "1403086",
+      "model": "AMD Ryzen 5 5500",
+      "score": "144.3",
+      "rank": 47,
+      "ratio": "67.1%"
+    },
+    {
+      "firm": "1",
+      "proId": "1141735",
+      "model": "Intel \u9177\u777fi7 6950X",
+      "score": "143.4",
+      "rank": 48,
+      "ratio": "66.4%"
+    },
+    {
+      "firm": "1",
+      "proId": "1307622",
+      "model": "Intel \u9177\u777fi5 10600K",
+      "score": "139.4",
+      "rank": 49,
+      "ratio": "65.7%"
+    },
+    {
+      "firm": "1",
+      "proId": "1159483",
+      "model": "Intel \u9177\u777fi7 7820X",
+      "score": "138.5",
+      "rank": 50,
+      "ratio": "65%"
+    },
+    {
+      "firm": "1",
+      "proId": "1233483",
+      "model": "Intel \u9177\u777fi7 9700K",
+      "score": "136.2",
+      "rank": 51,
+      "ratio": "64.3%"
+    },
+    {
+      "firm": "2",
+      "proId": "1204791",
+      "model": "AMD Ryzen 7 2700X",
+      "score": "133.3",
+      "rank": 52,
+      "ratio": "63.6%"
+    },
+    {
+      "firm": "2",
+      "proId": "1173190",
+      "model": "AMD Ryzen Threadripper 1920X",
+      "score": "129.8",
+      "rank": 53,
+      "ratio": "62.9%"
+    },
+    {
+      "firm": "2",
+      "proId": "1277878",
+      "model": "AMD Ryzen 5 3600",
+      "score": "129.0",
+      "rank": 54,
+      "ratio": "62.2%"
+    },
+    {
+      "firm": "1",
+      "proId": "1177026",
+      "model": "Intel \u9177\u777fi7 8700K",
+      "score": "127.6",
+      "rank": 55,
+      "ratio": "61.5%"
+    },
+    {
+      "firm": "2",
+      "proId": "1164799",
+      "model": "AMD Ryzen 7 1800X",
+      "score": "126.0",
+      "rank": 56,
+      "ratio": "60.8%"
+    },
+    {
+      "firm": "2",
+      "proId": "1164801",
+      "model": "AMD Ryzen 7 1700X",
+      "score": "120.2",
+      "rank": 57,
+      "ratio": "60.1%"
+    },
+    {
+      "firm": "1",
+      "proId": "1148872",
+      "model": "Intel \u9177\u777fi7 6900K",
+      "score": "119.7",
+      "rank": 58,
+      "ratio": "59.4%"
+    },
+    {
+      "firm": "2",
+      "proId": "1213501",
+      "model": "AMD Ryzen 7 2700",
+      "score": "113.7",
+      "rank": 59,
+      "ratio": "58.7%"
+    },
+    {
+      "firm": "1",
+      "proId": "1307002",
+      "model": "Intel \u9177\u777fi5 10400F",
+      "score": "113.6",
+      "rank": 60,
+      "ratio": "58%"
+    },
+    {
+      "firm": "1",
+      "proId": "1159472",
+      "model": "Intel \u9177\u777fi7 7800X",
+      "score": "113.0",
+      "rank": 61,
+      "ratio": "57.3%"
+    },
+    {
+      "firm": "2",
+      "proId": "1164803",
+      "model": "AMD Ryzen 7 1700",
+      "score": "111.7",
+      "rank": 62,
+      "ratio": "56.6%"
+    },
+    {
+      "firm": "2",
+      "proId": "1212016",
+      "model": "AMD Ryzen 5 2600X",
+      "score": "111.1",
+      "rank": 63,
+      "ratio": "55.9%"
+    },
+    {
+      "firm": "1",
+      "proId": "370748",
+      "model": "Intel Xeon E5-2680 v2",
+      "score": "110.2",
+      "rank": 64,
+      "ratio": "55.2%"
+    },
+    {
+      "firm": "1",
+      "proId": "1249008",
+      "model": "Intel \u9177\u777fi5 9600KF",
+      "score": "109.3",
+      "rank": 65,
+      "ratio": "54.5%"
+    },
+    {
+      "firm": "1",
+      "proId": "384514",
+      "model": "Intel \u9177\u777fi7 5960X",
+      "score": "109.1",
+      "rank": 66,
+      "ratio": "53.8%"
+    },
+    {
+      "firm": "2",
+      "proId": "1320218",
+      "model": "AMD Ryzen 3 3300X",
+      "score": "107.3",
+      "rank": 67,
+      "ratio": "53.1%"
+    },
+    {
+      "firm": "1",
+      "proId": "365189",
+      "model": "Intel \u9177\u777fi7 4960X",
+      "score": "106.2",
+      "rank": 68,
+      "ratio": "52.4%"
+    },
+    {
+      "firm": "1",
+      "proId": "1233481",
+      "model": "Intel \u9177\u777fi5 9600K",
+      "score": "105.9",
+      "rank": 69,
+      "ratio": "51.7%"
+    },
+    {
+      "firm": "2",
+      "proId": "1209679",
+      "model": "AMD Ryzen 5 2600",
+      "score": "105.3",
+      "rank": 70,
+      "ratio": "51%"
+    },
+    {
+      "firm": "2",
+      "proId": "1164805",
+      "model": "AMD Ryzen 5 1600X",
+      "score": "104.5",
+      "rank": 71,
+      "ratio": "50.3%"
+    },
+    {
+      "firm": "1",
+      "proId": "1177031",
+      "model": "Intel \u9177\u777fi5 8600K",
+      "score": "103.9",
+      "rank": 72,
+      "ratio": "49.7%"
+    },
+    {
+      "firm": "1",
+      "proId": "1384471",
+      "model": "Intel \u9177\u777fi3 10325",
+      "score": "102.8",
+      "rank": 73,
+      "ratio": "49%"
+    },
+    {
+      "firm": "1",
+      "proId": "1165092",
+      "model": "Intel \u9177\u777fi7 7740X",
+      "score": "101.7",
+      "rank": 74,
+      "ratio": "48.3%"
+    },
+    {
+      "firm": "1",
+      "proId": "1321778",
+      "model": "Intel \u9177\u777fi3 10320",
+      "score": "101.3",
+      "rank": 75,
+      "ratio": "47.6%"
+    },
+    {
+      "firm": "1",
+      "proId": "1157756",
+      "model": "Intel \u9177\u777fi7 7700K",
+      "score": "100.0",
+      "rank": 76,
+      "ratio": "46.9%"
+    },
+    {
+      "firm": "2",
+      "proId": "1295080",
+      "model": "AMD Ryzen 5 3500X",
+      "score": "99.6",
+      "rank": 77,
+      "ratio": "46.2%"
+    },
+    {
+      "firm": "1",
+      "proId": "1148877",
+      "model": "Intel \u9177\u777fi7 6800K",
+      "score": "99.1",
+      "rank": 78,
+      "ratio": "45.5%"
+    },
+    {
+      "firm": "1",
+      "proId": "384515",
+      "model": "Intel \u9177\u777fi7 5930K",
+      "score": "98.9",
+      "rank": 79,
+      "ratio": "44.8%"
+    },
+    {
+      "firm": "1",
+      "proId": "337888",
+      "model": "Intel \u9177\u777fi7 3970X",
+      "score": "97.9",
+      "rank": 80,
+      "ratio": "44.1%"
+    },
+    {
+      "firm": "1",
+      "proId": "1369031",
+      "model": "Intel \u9177\u777fi3 10105F",
+      "score": "96.2",
+      "rank": 81,
+      "ratio": "43.4%"
+    },
+    {
+      "firm": "1",
+      "proId": "1359645",
+      "model": "Intel \u9177\u777fi3 10105",
+      "score": "96.2",
+      "rank": 82,
+      "ratio": "42.7%"
+    },
+    {
+      "firm": "1",
+      "proId": "1249003",
+      "model": "Intel \u9177\u777fi5 9400F",
+      "score": "96.1",
+      "rank": 83,
+      "ratio": "42%"
+    },
+    {
+      "firm": "1",
+      "proId": "370746",
+      "model": "Intel Xeon E5-2670 v2",
+      "score": "95.5",
+      "rank": 84,
+      "ratio": "41.3%"
+    },
+    {
+      "firm": "1",
+      "proId": "1296179",
+      "model": "Intel \u9177\u777fi3 10100",
+      "score": "94.4",
+      "rank": 85,
+      "ratio": "40.6%"
+    },
+    {
+      "firm": "1",
+      "proId": "1098616",
+      "model": "Intel \u9177\u777fi7 6700K",
+      "score": "91.5",
+      "rank": 86,
+      "ratio": "39.9%"
+    },
+    {
+      "firm": "1",
+      "proId": "381265",
+      "model": "Intel \u9177\u777fi7 4790K",
+      "score": "91.5",
+      "rank": 87,
+      "ratio": "39.2%"
+    },
+    {
+      "firm": "2",
+      "proId": "1320221",
+      "model": "AMD Ryzen 3 3100",
+      "score": "90.8",
+      "rank": 88,
+      "ratio": "38.5%"
+    },
+    {
+      "firm": "1",
+      "proId": "1177032",
+      "model": "Intel \u9177\u777fi5 8400",
+      "score": "90.2",
+      "rank": 89,
+      "ratio": "37.8%"
+    },
+    {
+      "firm": "1",
+      "proId": "1159128",
+      "model": "Intel \u9177\u777fi7 7700",
+      "score": "90.0",
+      "rank": 90,
+      "ratio": "37.1%"
+    },
+    {
+      "firm": "1",
+      "proId": "1116837",
+      "model": "Intel Xeon E3-1230 v5",
+      "score": "82.6",
+      "rank": 91,
+      "ratio": "36.4%"
+    },
+    {
+      "firm": "1",
+      "proId": "357351",
+      "model": "Intel \u9177\u777fi7 4770K",
+      "score": "79.8",
+      "rank": 92,
+      "ratio": "35.7%"
+    },
+    {
+      "firm": "2",
+      "proId": "1205087",
+      "model": "AMD Ryzen 5 2400G",
+      "score": "79.7",
+      "rank": 93,
+      "ratio": "35%"
+    },
+    {
+      "firm": "1",
+      "proId": "355694",
+      "model": "Intel Xeon E3-1230 v3",
+      "score": "77.6",
+      "rank": 94,
+      "ratio": "34.3%"
+    },
+    {
+      "firm": "1",
+      "proId": "306824",
+      "model": "Intel \u9177\u777fi7 3770K",
+      "score": "77.3",
+      "rank": 95,
+      "ratio": "33.6%"
+    },
+    {
+      "firm": "1",
+      "proId": "309339",
+      "model": "Intel Xeon E3-1230 v2",
+      "score": "73.6",
+      "rank": 96,
+      "ratio": "32.9%"
+    },
+    {
+      "firm": "1",
+      "proId": "299791",
+      "model": "Intel \u9177\u777fi7 2700K",
+      "score": "73.4",
+      "rank": 97,
+      "ratio": "32.2%"
+    },
+    {
+      "firm": "1",
+      "proId": "1098709",
+      "model": "Intel \u9177\u777fi5 6600K",
+      "score": "73.1",
+      "rank": 98,
+      "ratio": "31.5%"
+    },
+    {
+      "firm": "1",
+      "proId": "383313",
+      "model": "Intel \u9177\u777fi5 4690K",
+      "score": "69.8",
+      "rank": 99,
+      "ratio": "30.8%"
+    },
+    {
+      "firm": "1",
+      "proId": "1179798",
+      "model": "Intel \u9177\u777fi3 8100",
+      "score": "69.0",
+      "rank": 100,
+      "ratio": "30.1%"
+    },
+    {
+      "firm": "1",
+      "proId": "353793",
+      "model": "Intel \u9177\u777fi5 4670K",
+      "score": "68.9",
+      "rank": 101,
+      "ratio": "29.4%"
+    },
+    {
+      "firm": "2",
+      "proId": "1164811",
+      "model": "AMD Ryzen 5 1400",
+      "score": "68.0",
+      "rank": 102,
+      "ratio": "28.7%"
+    },
+    {
+      "firm": "1",
+      "proId": "1159124",
+      "model": "Intel \u9177\u777fi5 7500",
+      "score": "67.8",
+      "rank": 103,
+      "ratio": "28%"
+    },
+    {
+      "firm": "1",
+      "proId": "353796",
+      "model": "Intel \u9177\u777fi5 4570",
+      "score": "66.9",
+      "rank": 104,
+      "ratio": "27.3%"
+    },
+    {
+      "firm": "1",
+      "proId": "1138731",
+      "model": "Intel Xeon E3-1220 v5",
+      "score": "66.2",
+      "rank": 105,
+      "ratio": "26.6%"
+    },
+    {
+      "firm": "1",
+      "proId": "1159122",
+      "model": "Intel \u9177\u777fi5 7400",
+      "score": "66.0",
+      "rank": 106,
+      "ratio": "25.9%"
+    },
+    {
+      "firm": "1",
+      "proId": "312491",
+      "model": "Intel \u9177\u777fi5 3570K",
+      "score": "65.0",
+      "rank": 107,
+      "ratio": "25.2%"
+    },
+    {
+      "firm": "1",
+      "proId": "310506",
+      "model": "Intel \u9177\u777fi5 2550K",
+      "score": "64.9",
+      "rank": 108,
+      "ratio": "24.5%"
+    },
+    {
+      "firm": "2",
+      "proId": "1176878",
+      "model": "AMD Ryzen 3 1300X",
+      "score": "63.8",
+      "rank": 109,
+      "ratio": "23.8%"
+    },
+    {
+      "firm": "2",
+      "proId": "385439",
+      "model": "AMD FX-9590",
+      "score": "63.4",
+      "rank": 110,
+      "ratio": "23.1%"
+    },
+    {
+      "firm": "1",
+      "proId": "253836",
+      "model": "Intel \u9177\u777fi5 2500K",
+      "score": "62.2",
+      "rank": 111,
+      "ratio": "22.4%"
+    },
+    {
+      "firm": "1",
+      "proId": "335273",
+      "model": "Intel \u9177\u777fi5 3470",
+      "score": "61.6",
+      "rank": 112,
+      "ratio": "21.7%"
+    },
+    {
+      "firm": "2",
+      "proId": "1205089",
+      "model": "AMD Ryzen 3 2200G",
+      "score": "61.4",
+      "rank": 113,
+      "ratio": "21%"
+    },
+    {
+      "firm": "1",
+      "proId": "252837",
+      "model": "Intel \u9177\u777fi5 2400",
+      "score": "58.8",
+      "rank": 114,
+      "ratio": "20.3%"
+    },
+    {
+      "firm": "2",
+      "proId": "334052",
+      "model": "AMD FX-8350",
+      "score": "58.0",
+      "rank": 115,
+      "ratio": "19.6%"
+    },
+    {
+      "firm": "1",
+      "proId": "306811",
+      "model": "Intel \u9177\u777fi5 3330",
+      "score": "55.9",
+      "rank": 116,
+      "ratio": "18.9%"
+    },
+    {
+      "firm": "1",
+      "proId": "392931",
+      "model": "Intel \u9177\u777fi3 4160",
+      "score": "53.3",
+      "rank": 117,
+      "ratio": "18.2%"
+    },
+    {
+      "firm": "1",
+      "proId": "360872",
+      "model": "Intel \u9177\u777fi3 4130",
+      "score": "50.7",
+      "rank": 118,
+      "ratio": "17.5%"
+    },
+    {
+      "firm": "1",
+      "proId": "1165129",
+      "model": "Intel \u5954\u817e G4560",
+      "score": "49.7",
+      "rank": 119,
+      "ratio": "16.8%"
+    },
+    {
+      "firm": "1",
+      "proId": "332885",
+      "model": "Intel \u9177\u777fi3 3220",
+      "score": "47.0",
+      "rank": 120,
+      "ratio": "16.1%"
+    },
+    {
+      "firm": "2",
+      "proId": "1234727",
+      "model": "AMD Athlon 200GE",
+      "score": "46.8",
+      "rank": 121,
+      "ratio": "15.4%"
+    },
+    {
+      "firm": "1",
+      "proId": "305068",
+      "model": "Intel \u9177\u777fi3 2120",
+      "score": "46.0",
+      "rank": 122,
+      "ratio": "14.7%"
+    },
+    {
+      "firm": "1",
+      "proId": "384038",
+      "model": "Intel \u5954\u817e G3258",
+      "score": "43.9",
+      "rank": 123,
+      "ratio": "14%"
+    },
+    {
+      "firm": "1",
+      "proId": "364437",
+      "model": "Intel \u5954\u817e G3220",
+      "score": "41.2",
+      "rank": 124,
+      "ratio": "13.3%"
+    },
+    {
+      "firm": "2",
+      "proId": "368780",
+      "model": "AMD A10-7850K",
+      "score": "41.0",
+      "rank": 125,
+      "ratio": "12.6%"
+    },
+    {
+      "firm": "1",
+      "proId": "338280",
+      "model": "Intel \u5954\u817e G2020",
+      "score": "39.3",
+      "rank": 126,
+      "ratio": "11.9%"
+    },
+    {
+      "firm": "1",
+      "proId": "346001",
+      "model": "Intel \u5954\u817e G2010",
+      "score": "37.8",
+      "rank": 127,
+      "ratio": "11.2%"
+    },
+    {
+      "firm": "1",
+      "proId": "264655",
+      "model": "Intel \u5954\u817e G840",
+      "score": "36.3",
+      "rank": 128,
+      "ratio": "10.5%"
+    },
+    {
+      "firm": "2",
+      "proId": "389213",
+      "model": "AMD \u901f\u9f99 X4 860K",
+      "score": "35.3",
+      "rank": 129,
+      "ratio": "9.8%"
+    },
+    {
+      "firm": "1",
+      "proId": "343782",
+      "model": "Intel \u5954\u817e G645",
+      "score": "34.6",
+      "rank": 130,
+      "ratio": "9.1%"
+    },
+    {
+      "firm": "1",
+      "proId": "323446",
+      "model": "Intel \u5954\u817e G630",
+      "score": "34.1",
+      "rank": 131,
+      "ratio": "8.4%"
+    },
+    {
+      "firm": "2",
+      "proId": "396542",
+      "model": "AMD A8-7650K",
+      "score": "33.6",
+      "rank": 132,
+      "ratio": "7.7%"
+    }
+  ],
+  "multiCore": [
+    {
+      "firm": "2",
+      "proId": "2018964",
+      "model": "AMD Ryzen 9 9950X",
+      "score": "5.67024",
+      "rank": 1,
+      "ratio": "99.3%"
+    },
+    {
+      "firm": "1",
+      "proId": "2110066",
+      "model": "Intel \u9177\u777f Ultra 9 285K",
+      "score": "5.42894",
+      "rank": 2,
+      "ratio": "98.6%"
+    },
+    {
+      "firm": "1",
+      "proId": "1805095",
+      "model": "Intel \u9177\u777f i9 14900K",
+      "score": "5.24971",
+      "rank": 3,
+      "ratio": "97.9%"
+    },
+    {
+      "firm": "2",
+      "proId": "1424741",
+      "model": "AMD Ryzen 9 7950X",
+      "score": "5.24503",
+      "rank": 4,
+      "ratio": "97.2%"
+    },
+    {
+      "firm": "1",
+      "proId": "1428844",
+      "model": "Intel \u9177\u777f i9 13900K",
+      "score": "5.21245",
+      "rank": 5,
+      "ratio": "96.5%"
+    },
+    {
+      "firm": "2",
+      "proId": "1440581",
+      "model": "AMD Ryzen 9 7950X3D(\u6e38\u620f\uff09",
+      "score": "5.08585",
+      "rank": 6,
+      "ratio": "95.8%"
+    },
+    {
+      "firm": "1",
+      "proId": "1814492",
+      "model": "Intel \u9177\u777f i7 14700K",
+      "score": "5.05814",
+      "rank": 7,
+      "ratio": "95.1%"
+    },
+    {
+      "firm": "2",
+      "proId": "1296984",
+      "model": "AMD Ryzen ThreadRipper 3970X",
+      "score": "4.95808",
+      "rank": 8,
+      "ratio": "94.4%"
+    },
+    {
+      "firm": "2",
+      "proId": "2018965",
+      "model": "AMD Ryzen 9 9900X",
+      "score": "4.56247",
+      "rank": 9,
+      "ratio": "93.7%"
+    },
+    {
+      "firm": "2",
+      "proId": "1424742",
+      "model": "AMD Ryzen 9 7900X",
+      "score": "4.22330",
+      "rank": 10,
+      "ratio": "93%"
+    },
+    {
+      "firm": "2",
+      "proId": "1296983",
+      "model": "AMD Ryzen ThreadRipper 3960X",
+      "score": "4.15424",
+      "rank": 11,
+      "ratio": "92.3%"
+    },
+    {
+      "firm": "1",
+      "proId": "1428845",
+      "model": "Intel \u9177\u777f i7 13700K",
+      "score": "4.12118",
+      "rank": 12,
+      "ratio": "91.6%"
+    },
+    {
+      "firm": "2",
+      "proId": "1342304",
+      "model": "AMD Ryzen 9 5950X",
+      "score": "3.69678",
+      "rank": 13,
+      "ratio": "90.9%"
+    },
+    {
+      "firm": "1",
+      "proId": "1356715",
+      "model": "Intel \u9177\u777f i9 12900K",
+      "score": "3.65899",
+      "rank": 14,
+      "ratio": "90.2%"
+    },
+    {
+      "firm": "1",
+      "proId": "1929614",
+      "model": "Intel \u9177\u777f i5 14600K",
+      "score": "3.50350",
+      "rank": 15,
+      "ratio": "89.5%"
+    },
+    {
+      "firm": "1",
+      "proId": "1428846",
+      "model": "Intel \u9177\u777f i5 13600K",
+      "score": "3.45411",
+      "rank": 16,
+      "ratio": "88.8%"
+    },
+    {
+      "firm": "2",
+      "proId": "2018966",
+      "model": "AMD Ryzen 7 9700X",
+      "score": "3.22679",
+      "rank": 17,
+      "ratio": "88.1%"
+    },
+    {
+      "firm": "2",
+      "proId": "1340449",
+      "model": "AMD Ryzen 9 5900X",
+      "score": "3.20764",
+      "rank": 18,
+      "ratio": "87.4%"
+    },
+    {
+      "firm": "2",
+      "proId": "2113342",
+      "model": "AMD Ryzen 7 9800X3D\uff08\u6e38\u620f\uff09",
+      "score": "3.20585",
+      "rank": 19,
+      "ratio": "86.7%"
+    },
+    {
+      "firm": "2",
+      "proId": "1227458",
+      "model": "AMD Ryzen Threadripper 2990WX",
+      "score": "3.15064",
+      "rank": 20,
+      "ratio": "86%"
+    },
+    {
+      "firm": "1",
+      "proId": "1172351",
+      "model": "Intel \u9177\u777fi9 7980XE",
+      "score": "3.04756",
+      "rank": 21,
+      "ratio": "85.3%"
+    },
+    {
+      "firm": "2",
+      "proId": "1424745",
+      "model": "AMD Ryzen 7 7700X",
+      "score": "3.03373",
+      "rank": 22,
+      "ratio": "84.6%"
+    },
+    {
+      "firm": "2",
+      "proId": "1440585",
+      "model": "AMD Ryzen 7 7800X3D\uff08\u6e38\u620f\uff09",
+      "score": "3.02003",
+      "rank": 23,
+      "ratio": "83.9%"
+    },
+    {
+      "firm": "2",
+      "proId": "1227460",
+      "model": "AMD Ryzen Threadripper 2970WX",
+      "score": "2.87339",
+      "rank": 24,
+      "ratio": "83.2%"
+    },
+    {
+      "firm": "2",
+      "proId": "2018967",
+      "model": "AMD Ryzen 5 9600X",
+      "score": "2.86212",
+      "rank": 25,
+      "ratio": "82.5%"
+    },
+    {
+      "firm": "2",
+      "proId": "1396433",
+      "model": "AMD Ryzen 7 5800X3D",
+      "score": "2.85899",
+      "rank": 26,
+      "ratio": "81.8%"
+    },
+    {
+      "firm": "2",
+      "proId": "1276702",
+      "model": "AMD Ryzen 9 3900X",
+      "score": "2.77273",
+      "rank": 27,
+      "ratio": "81.1%"
+    },
+    {
+      "firm": "1",
+      "proId": "1295319",
+      "model": "Intel \u9177\u777fi9 10980XE",
+      "score": "2.73317",
+      "rank": 28,
+      "ratio": "80.4%"
+    },
+    {
+      "firm": "2",
+      "proId": "1367038",
+      "model": "AMD Ryzen 5 7600X",
+      "score": "2.58296",
+      "rank": 29,
+      "ratio": "79.7%"
+    },
+    {
+      "firm": "1",
+      "proId": "1307608",
+      "model": "Intel \u9177\u777fi9 10900K",
+      "score": "2.46601",
+      "rank": 30,
+      "ratio": "79%"
+    },
+    {
+      "firm": "1",
+      "proId": "1393370",
+      "model": "Intel \u9177\u777f i5 12600K",
+      "score": "2.45037",
+      "rank": 31,
+      "ratio": "78.3%"
+    },
+    {
+      "firm": "2",
+      "proId": "1342130",
+      "model": "AMD Ryzen 7 5800X",
+      "score": "2.43872",
+      "rank": 32,
+      "ratio": "77.6%"
+    },
+    {
+      "firm": "2",
+      "proId": "1355716",
+      "model": "AMD Ryzen 7 5700G",
+      "score": "2.29180",
+      "rank": 33,
+      "ratio": "76.9%"
+    },
+    {
+      "firm": "1",
+      "proId": "1350558",
+      "model": "Intel \u9177\u777fi9 11900K",
+      "score": "2.24048",
+      "rank": 34,
+      "ratio": "76.2%"
+    },
+    {
+      "firm": "1",
+      "proId": "1276748",
+      "model": "Intel \u9177\u777fi9 9900KS",
+      "score": "2.16601",
+      "rank": 35,
+      "ratio": "75.5%"
+    },
+    {
+      "firm": "1",
+      "proId": "1293662",
+      "model": "Intel \u9177\u777fi9 10900X",
+      "score": "2.14760",
+      "rank": 36,
+      "ratio": "74.8%"
+    },
+    {
+      "firm": "2",
+      "proId": "1173435",
+      "model": "AMD Ryzen Threadripper 1950X",
+      "score": "2.12851",
+      "rank": 37,
+      "ratio": "74.1%"
+    },
+    {
+      "firm": "2",
+      "proId": "1227461",
+      "model": "AMD Ryzen Threadripper 2920X",
+      "score": "2.12633",
+      "rank": 38,
+      "ratio": "73.4%"
+    },
+    {
+      "firm": "1",
+      "proId": "1172347",
+      "model": "Intel \u9177\u777fi9 7900X",
+      "score": "2.07976",
+      "rank": 39,
+      "ratio": "72.7%"
+    },
+    {
+      "firm": "1",
+      "proId": "1299169",
+      "model": "Intel \u9177\u777fi7 10700K",
+      "score": "2.06043",
+      "rank": 40,
+      "ratio": "72%"
+    },
+    {
+      "firm": "1",
+      "proId": "1233484",
+      "model": "Intel \u9177\u777fi9 9900K",
+      "score": "2.05413",
+      "rank": 41,
+      "ratio": "71.3%"
+    },
+    {
+      "firm": "1",
+      "proId": "1354876",
+      "model": "Intel \u9177\u777fi7 11700K",
+      "score": "2.04555",
+      "rank": 42,
+      "ratio": "70.6%"
+    },
+    {
+      "firm": "2",
+      "proId": "1276700",
+      "model": "AMD Ryzen 7 3700X",
+      "score": "2.03479",
+      "rank": 43,
+      "ratio": "69.9%"
+    },
+    {
+      "firm": "1",
+      "proId": "1141735",
+      "model": "Intel \u9177\u777fi7 6950X",
+      "score": "1.88523",
+      "rank": 44,
+      "ratio": "69.2%"
+    },
+    {
+      "firm": "2",
+      "proId": "1342305",
+      "model": "AMD Ryzen 5 5600X",
+      "score": "1.87737",
+      "rank": 45,
+      "ratio": "68.5%"
+    },
+    {
+      "firm": "1",
+      "proId": "1360148",
+      "model": "Intel \u9177\u777fi5 11600K",
+      "score": "1.84063",
+      "rank": 46,
+      "ratio": "67.8%"
+    },
+    {
+      "firm": "2",
+      "proId": "1366838",
+      "model": "AMD Ryzen 5 5600G",
+      "score": "1.82678",
+      "rank": 47,
+      "ratio": "67.1%"
+    },
+    {
+      "firm": "1",
+      "proId": "1159483",
+      "model": "Intel \u9177\u777fi7 7820X",
+      "score": "1.67812",
+      "rank": 48,
+      "ratio": "66.4%"
+    },
+    {
+      "firm": "2",
+      "proId": "1403086",
+      "model": "AMD Ryzen 5 5500",
+      "score": "1.66137",
+      "rank": 49,
+      "ratio": "65.7%"
+    },
+    {
+      "firm": "2",
+      "proId": "1204791",
+      "model": "AMD Ryzen 7 2700X",
+      "score": "1.64141",
+      "rank": 50,
+      "ratio": "65%"
+    },
+    {
+      "firm": "1",
+      "proId": "1307622",
+      "model": "Intel \u9177\u777fi5 10600K",
+      "score": "1.62257",
+      "rank": 51,
+      "ratio": "64.3%"
+    },
+    {
+      "firm": "2",
+      "proId": "1173190",
+      "model": "AMD Ryzen Threadripper 1920X",
+      "score": "1.61928",
+      "rank": 52,
+      "ratio": "63.6%"
+    },
+    {
+      "firm": "2",
+      "proId": "1164799",
+      "model": "AMD Ryzen 7 1800X",
+      "score": "1.55420",
+      "rank": 53,
+      "ratio": "62.9%"
+    },
+    {
+      "firm": "1",
+      "proId": "1233483",
+      "model": "Intel \u9177\u777fi7 9700K",
+      "score": "1.53944",
+      "rank": 54,
+      "ratio": "62.2%"
+    },
+    {
+      "firm": "2",
+      "proId": "1277878",
+      "model": "AMD Ryzen 5 3600",
+      "score": "1.53562",
+      "rank": 55,
+      "ratio": "61.5%"
+    },
+    {
+      "firm": "2",
+      "proId": "1164801",
+      "model": "AMD Ryzen 7 1700X",
+      "score": "1.48087",
+      "rank": 56,
+      "ratio": "60.8%"
+    },
+    {
+      "firm": "1",
+      "proId": "1148872",
+      "model": "Intel \u9177\u777fi7 6900K",
+      "score": "1.45669",
+      "rank": 57,
+      "ratio": "60.1%"
+    },
+    {
+      "firm": "1",
+      "proId": "1177026",
+      "model": "Intel \u9177\u777fi7 8700K",
+      "score": "1.43007",
+      "rank": 58,
+      "ratio": "59.4%"
+    },
+    {
+      "firm": "2",
+      "proId": "1213501",
+      "model": "AMD Ryzen 7 2700",
+      "score": "1.40542",
+      "rank": 59,
+      "ratio": "58.7%"
+    },
+    {
+      "firm": "1",
+      "proId": "370748",
+      "model": "Intel Xeon E5-2680 v2",
+      "score": "1.36276",
+      "rank": 60,
+      "ratio": "58%"
+    },
+    {
+      "firm": "2",
+      "proId": "1164803",
+      "model": "AMD Ryzen 7 1700",
+      "score": "1.36029",
+      "rank": 61,
+      "ratio": "57.3%"
+    },
+    {
+      "firm": "1",
+      "proId": "384514",
+      "model": "Intel \u9177\u777fi7 5960X",
+      "score": "1.32757",
+      "rank": 62,
+      "ratio": "56.6%"
+    },
+    {
+      "firm": "1",
+      "proId": "1307002",
+      "model": "Intel \u9177\u777fi5 10400F",
+      "score": "1.30095",
+      "rank": 63,
+      "ratio": "55.9%"
+    },
+    {
+      "firm": "1",
+      "proId": "1159472",
+      "model": "Intel \u9177\u777fi7 7800X",
+      "score": "1.29328",
+      "rank": 64,
+      "ratio": "55.2%"
+    },
+    {
+      "firm": "2",
+      "proId": "1212016",
+      "model": "AMD Ryzen 5 2600X",
+      "score": "1.28907",
+      "rank": 65,
+      "ratio": "54.5%"
+    },
+    {
+      "firm": "2",
+      "proId": "1164805",
+      "model": "AMD Ryzen 5 1600X",
+      "score": "1.22873",
+      "rank": 66,
+      "ratio": "53.8%"
+    },
+    {
+      "firm": "1",
+      "proId": "370746",
+      "model": "Intel Xeon E5-2670 v2",
+      "score": "1.22369",
+      "rank": 67,
+      "ratio": "53.1%"
+    },
+    {
+      "firm": "2",
+      "proId": "1209679",
+      "model": "AMD Ryzen 5 2600",
+      "score": "1.21873",
+      "rank": 68,
+      "ratio": "52.4%"
+    },
+    {
+      "firm": "1",
+      "proId": "1249008",
+      "model": "Intel \u9177\u777fi5 9600KF",
+      "score": "1.18323",
+      "rank": 69,
+      "ratio": "51.7%"
+    },
+    {
+      "firm": "1",
+      "proId": "365189",
+      "model": "Intel \u9177\u777fi7 4960X",
+      "score": "1.18260",
+      "rank": 70,
+      "ratio": "51%"
+    },
+    {
+      "firm": "2",
+      "proId": "1320218",
+      "model": "AMD Ryzen 3 3300X",
+      "score": "1.12935",
+      "rank": 71,
+      "ratio": "50.3%"
+    },
+    {
+      "firm": "1",
+      "proId": "1148877",
+      "model": "Intel \u9177\u777fi7 6800K",
+      "score": "1.12700",
+      "rank": 72,
+      "ratio": "49.7%"
+    },
+    {
+      "firm": "1",
+      "proId": "384515",
+      "model": "Intel \u9177\u777fi7 5930K",
+      "score": "1.11663",
+      "rank": 73,
+      "ratio": "49%"
+    },
+    {
+      "firm": "1",
+      "proId": "1177031",
+      "model": "Intel \u9177\u777fi5 8600K",
+      "score": "1.08529",
+      "rank": 74,
+      "ratio": "48.3%"
+    },
+    {
+      "firm": "1",
+      "proId": "1233481",
+      "model": "Intel \u9177\u777fi5 9600K",
+      "score": "1.08394",
+      "rank": 75,
+      "ratio": "47.6%"
+    },
+    {
+      "firm": "1",
+      "proId": "337888",
+      "model": "Intel \u9177\u777fi7 3970X",
+      "score": "1.06861",
+      "rank": 76,
+      "ratio": "46.9%"
+    },
+    {
+      "firm": "2",
+      "proId": "1295080",
+      "model": "AMD Ryzen 5 3500X",
+      "score": "1.05358",
+      "rank": 77,
+      "ratio": "46.2%"
+    },
+    {
+      "firm": "1",
+      "proId": "1165092",
+      "model": "Intel \u9177\u777fi7 7740X",
+      "score": "1.01582",
+      "rank": 78,
+      "ratio": "45.5%"
+    },
+    {
+      "firm": "1",
+      "proId": "1384471",
+      "model": "Intel \u9177\u777fi3 10325",
+      "score": "1.01151",
+      "rank": 79,
+      "ratio": "44.8%"
+    },
+    {
+      "firm": "1",
+      "proId": "1321778",
+      "model": "Intel \u9177\u777fi3 10320",
+      "score": "1.00000",
+      "rank": 80,
+      "ratio": "44.1%"
+    },
+    {
+      "firm": "1",
+      "proId": "1157756",
+      "model": "Intel \u9177\u777fi7 7700K",
+      "score": "1.00000",
+      "rank": 81,
+      "ratio": "43.4%"
+    },
+    {
+      "firm": "1",
+      "proId": "1249003",
+      "model": "Intel \u9177\u777fi5 9400F",
+      "score": "0.99800",
+      "rank": 82,
+      "ratio": "42.7%"
+    },
+    {
+      "firm": "1",
+      "proId": "1369031",
+      "model": "Intel \u9177\u777fi3 10105F",
+      "score": "0.95084",
+      "rank": 83,
+      "ratio": "42%"
+    },
+    {
+      "firm": "1",
+      "proId": "1359645",
+      "model": "Intel \u9177\u777fi3 10105",
+      "score": "0.95084",
+      "rank": 84,
+      "ratio": "41.3%"
+    },
+    {
+      "firm": "2",
+      "proId": "1320221",
+      "model": "AMD Ryzen 3 3100",
+      "score": "0.93840",
+      "rank": 85,
+      "ratio": "40.6%"
+    },
+    {
+      "firm": "1",
+      "proId": "1296179",
+      "model": "Intel \u9177\u777fi3 10100",
+      "score": "0.93828",
+      "rank": 86,
+      "ratio": "39.9%"
+    },
+    {
+      "firm": "1",
+      "proId": "1177032",
+      "model": "Intel \u9177\u777fi5 8400",
+      "score": "0.91690",
+      "rank": 87,
+      "ratio": "39.2%"
+    },
+    {
+      "firm": "1",
+      "proId": "1098616",
+      "model": "Intel \u9177\u777fi7 6700K",
+      "score": "0.91123",
+      "rank": 88,
+      "ratio": "38.5%"
+    },
+    {
+      "firm": "1",
+      "proId": "1159128",
+      "model": "Intel \u9177\u777fi7 7700",
+      "score": "0.89958",
+      "rank": 89,
+      "ratio": "37.8%"
+    },
+    {
+      "firm": "1",
+      "proId": "381265",
+      "model": "Intel \u9177\u777fi7 4790K",
+      "score": "0.89431",
+      "rank": 90,
+      "ratio": "37.1%"
+    },
+    {
+      "firm": "2",
+      "proId": "1205087",
+      "model": "AMD Ryzen 5 2400G",
+      "score": "0.82495",
+      "rank": 91,
+      "ratio": "36.4%"
+    },
+    {
+      "firm": "1",
+      "proId": "1116837",
+      "model": "Intel Xeon E3-1230 v5",
+      "score": "0.82002",
+      "rank": 92,
+      "ratio": "35.7%"
+    },
+    {
+      "firm": "2",
+      "proId": "385439",
+      "model": "AMD FX-9590",
+      "score": "0.77769",
+      "rank": 93,
+      "ratio": "35%"
+    },
+    {
+      "firm": "1",
+      "proId": "357351",
+      "model": "Intel \u9177\u777fi7 4770K",
+      "score": "0.75248",
+      "rank": 94,
+      "ratio": "34.3%"
+    },
+    {
+      "firm": "1",
+      "proId": "355694",
+      "model": "Intel Xeon E3-1230 v3",
+      "score": "0.74885",
+      "rank": 95,
+      "ratio": "33.6%"
+    },
+    {
+      "firm": "1",
+      "proId": "306824",
+      "model": "Intel \u9177\u777fi7 3770K",
+      "score": "0.72972",
+      "rank": 96,
+      "ratio": "32.9%"
+    },
+    {
+      "firm": "2",
+      "proId": "1106378",
+      "model": "AMD FX-8370",
+      "score": "0.72424",
+      "rank": 97,
+      "ratio": "32.2%"
+    },
+    {
+      "firm": "1",
+      "proId": "309339",
+      "model": "Intel Xeon E3-1230 v2",
+      "score": "0.71071",
+      "rank": 98,
+      "ratio": "31.5%"
+    },
+    {
+      "firm": "1",
+      "proId": "299791",
+      "model": "Intel \u9177\u777fi7 2700K",
+      "score": "0.69756",
+      "rank": 99,
+      "ratio": "30.8%"
+    },
+    {
+      "firm": "2",
+      "proId": "1164811",
+      "model": "AMD Ryzen 5 1400",
+      "score": "0.69641",
+      "rank": 100,
+      "ratio": "30.1%"
+    },
+    {
+      "firm": "2",
+      "proId": "334052",
+      "model": "AMD FX-8350",
+      "score": "0.69165",
+      "rank": 101,
+      "ratio": "29.4%"
+    },
+    {
+      "firm": "1",
+      "proId": "1098709",
+      "model": "Intel \u9177\u777fi5 6600K",
+      "score": "0.64927",
+      "rank": 102,
+      "ratio": "28.7%"
+    },
+    {
+      "firm": "1",
+      "proId": "383313",
+      "model": "Intel \u9177\u777fi5 4690K",
+      "score": "0.63918",
+      "rank": 103,
+      "ratio": "28%"
+    },
+    {
+      "firm": "1",
+      "proId": "1179798",
+      "model": "Intel \u9177\u777fi3 8100",
+      "score": "0.60853",
+      "rank": 104,
+      "ratio": "27.3%"
+    },
+    {
+      "firm": "1",
+      "proId": "1159124",
+      "model": "Intel \u9177\u777fi5 7500",
+      "score": "0.59710",
+      "rank": 105,
+      "ratio": "26.6%"
+    },
+    {
+      "firm": "1",
+      "proId": "1138731",
+      "model": "Intel Xeon E3-1220 v5",
+      "score": "0.59354",
+      "rank": 106,
+      "ratio": "25.9%"
+    },
+    {
+      "firm": "1",
+      "proId": "1101365",
+      "model": "Intel \u9177\u777fi5 6500",
+      "score": "0.58787",
+      "rank": 107,
+      "ratio": "25.2%"
+    },
+    {
+      "firm": "1",
+      "proId": "1159122",
+      "model": "Intel \u9177\u777fi5 7400",
+      "score": "0.58733",
+      "rank": 108,
+      "ratio": "24.5%"
+    },
+    {
+      "firm": "1",
+      "proId": "353793",
+      "model": "Intel \u9177\u777fi5 4670K",
+      "score": "0.58711",
+      "rank": 109,
+      "ratio": "23.8%"
+    },
+    {
+      "firm": "1",
+      "proId": "353796",
+      "model": "Intel \u9177\u777fi5 4570",
+      "score": "0.58310",
+      "rank": 110,
+      "ratio": "23.1%"
+    },
+    {
+      "firm": "2",
+      "proId": "1205089",
+      "model": "AMD Ryzen 3 2200G",
+      "score": "0.57109",
+      "rank": 111,
+      "ratio": "22.4%"
+    },
+    {
+      "firm": "2",
+      "proId": "1176878",
+      "model": "AMD Ryzen 3 1300X",
+      "score": "0.56227",
+      "rank": 112,
+      "ratio": "21.7%"
+    },
+    {
+      "firm": "1",
+      "proId": "312491",
+      "model": "Intel \u9177\u777fi5 3570K",
+      "score": "0.54357",
+      "rank": 113,
+      "ratio": "21%"
+    },
+    {
+      "firm": "1",
+      "proId": "310506",
+      "model": "Intel \u9177\u777fi5 2550K",
+      "score": "0.54321",
+      "rank": 114,
+      "ratio": "20.3%"
+    },
+    {
+      "firm": "1",
+      "proId": "253836",
+      "model": "Intel \u9177\u777fi5 2500K",
+      "score": "0.51945",
+      "rank": 115,
+      "ratio": "19.6%"
+    },
+    {
+      "firm": "1",
+      "proId": "335273",
+      "model": "Intel \u9177\u777fi5 3470",
+      "score": "0.50990",
+      "rank": 116,
+      "ratio": "18.9%"
+    },
+    {
+      "firm": "1",
+      "proId": "252837",
+      "model": "Intel \u9177\u777fi5 2400",
+      "score": "0.49323",
+      "rank": 117,
+      "ratio": "18.2%"
+    },
+    {
+      "firm": "2",
+      "proId": "1136250",
+      "model": "AMD FX-6330",
+      "score": "0.47660",
+      "rank": 118,
+      "ratio": "17.5%"
+    },
+    {
+      "firm": "1",
+      "proId": "306811",
+      "model": "Intel \u9177\u777fi5 3330",
+      "score": "0.46199",
+      "rank": 119,
+      "ratio": "16.8%"
+    },
+    {
+      "firm": "2",
+      "proId": "1141377",
+      "model": "AMD \u901f\u9f99 X4 880K",
+      "score": "0.44650",
+      "rank": 120,
+      "ratio": "16.1%"
+    },
+    {
+      "firm": "2",
+      "proId": "1141308",
+      "model": "AMD A10-7890K",
+      "score": "0.44110",
+      "rank": 121,
+      "ratio": "15.4%"
+    },
+    {
+      "firm": "2",
+      "proId": "402399",
+      "model": "AMD A10-7870K",
+      "score": "0.43576",
+      "rank": 122,
+      "ratio": "14.7%"
+    },
+    {
+      "firm": "1",
+      "proId": "1136272",
+      "model": "Intel \u9177\u777fi3 6100",
+      "score": "0.43122",
+      "rank": 123,
+      "ratio": "14%"
+    },
+    {
+      "firm": "2",
+      "proId": "368780",
+      "model": "AMD A10-7850K",
+      "score": "0.38374",
+      "rank": 124,
+      "ratio": "13.3%"
+    },
+    {
+      "firm": "1",
+      "proId": "392931",
+      "model": "Intel \u9177\u777fi3 4160",
+      "score": "0.38236",
+      "rank": 125,
+      "ratio": "12.6%"
+    },
+    {
+      "firm": "1",
+      "proId": "1165129",
+      "model": "Intel \u5954\u817e G4560",
+      "score": "0.37097",
+      "rank": 126,
+      "ratio": "11.9%"
+    },
+    {
+      "firm": "2",
+      "proId": "1234727",
+      "model": "AMD Athlon 200GE",
+      "score": "0.36824",
+      "rank": 127,
+      "ratio": "11.2%"
+    },
+    {
+      "firm": "1",
+      "proId": "360872",
+      "model": "Intel \u9177\u777fi3 4130",
+      "score": "0.36648",
+      "rank": 128,
+      "ratio": "10.5%"
+    },
+    {
+      "firm": "1",
+      "proId": "332885",
+      "model": "Intel \u9177\u777fi3 3220",
+      "score": "0.33293",
+      "rank": 129,
+      "ratio": "9.8%"
+    },
+    {
+      "firm": "2",
+      "proId": "1109838",
+      "model": "AMD \u901f\u9f99 X4 850",
+      "score": "0.32786",
+      "rank": 130,
+      "ratio": "9.1%"
+    },
+    {
+      "firm": "1",
+      "proId": "305068",
+      "model": "Intel \u9177\u777fi3 2120",
+      "score": "0.32649",
+      "rank": 131,
+      "ratio": "8.4%"
+    },
+    {
+      "firm": "2",
+      "proId": "389213",
+      "model": "AMD \u901f\u9f99 X4 860K",
+      "score": "0.31695",
+      "rank": 132,
+      "ratio": "7.7%"
+    },
+    {
+      "firm": "2",
+      "proId": "396542",
+      "model": "AMD A8-7650K",
+      "score": "0.31136",
+      "rank": 133,
+      "ratio": "7%"
+    },
+    {
+      "firm": "1",
+      "proId": "1136247",
+      "model": "Intel \u5954\u817e G4500",
+      "score": "0.30864",
+      "rank": 134,
+      "ratio": "6.3%"
+    },
+    {
+      "firm": "1",
+      "proId": "384038",
+      "model": "Intel \u5954\u817e G3258",
+      "score": "0.27631",
+      "rank": 135,
+      "ratio": "5.6%"
+    },
+    {
+      "firm": "1",
+      "proId": "385725",
+      "model": "Intel \u5954\u817e G3240",
+      "score": "0.26182",
+      "rank": 136,
+      "ratio": "4.9%"
+    },
+    {
+      "firm": "1",
+      "proId": "364437",
+      "model": "Intel \u5954\u817e G3220",
+      "score": "0.25618",
+      "rank": 137,
+      "ratio": "4.2%"
+    },
+    {
+      "firm": "1",
+      "proId": "338280",
+      "model": "Intel \u5954\u817e G2020",
+      "score": "0.23058",
+      "rank": 138,
+      "ratio": "3.5%"
+    },
+    {
+      "firm": "1",
+      "proId": "264655",
+      "model": "Intel \u5954\u817e G840",
+      "score": "0.22744",
+      "rank": 139,
+      "ratio": "2.8%"
+    },
+    {
+      "firm": "1",
+      "proId": "346001",
+      "model": "Intel \u5954\u817e G2010",
+      "score": "0.22301",
+      "rank": 140,
+      "ratio": "2.1%"
+    },
+    {
+      "firm": "1",
+      "proId": "343782",
+      "model": "Intel \u5954\u817e G645",
+      "score": "0.21974",
+      "rank": 141,
+      "ratio": "1.4%"
+    },
+    {
+      "firm": "1",
+      "proId": "323446",
+      "model": "Intel \u5954\u817e G630",
+      "score": "0.21354",
+      "rank": 142,
+      "ratio": "0.7%"
+    },
+    {
+      "firm": "2",
+      "proId": "1250168",
+      "model": "AMD APU\u7cfb\u5217 A6-7480",
+      "score": "0.18846",
+      "rank": 143,
+      "ratio": "0%"
+    }
+  ],
+  "singleCore": [
+    {
+      "firm": "2",
+      "proId": "2018964",
+      "model": "AMD Ryzen 9 9950X",
+      "score": "1.69883",
+      "rank": 1,
+      "ratio": "99.3%"
+    },
+    {
+      "firm": "1",
+      "proId": "1805095",
+      "model": "Intel \u9177\u777f i9 14900K",
+      "score": "1.69167",
+      "rank": 2,
+      "ratio": "98.6%"
+    },
+    {
+      "firm": "2",
+      "proId": "2018965",
+      "model": "AMD Ryzen 9 9900X",
+      "score": "1.67667",
+      "rank": 3,
+      "ratio": "97.9%"
+    },
+    {
+      "firm": "1",
+      "proId": "1428844",
+      "model": "Intel \u9177\u777f i9 13900K",
+      "score": "1.66918",
+      "rank": 4,
+      "ratio": "97.2%"
+    },
+    {
+      "firm": "2",
+      "proId": "2018966",
+      "model": "AMD Ryzen 7 9700X",
+      "score": "1.62020",
+      "rank": 5,
+      "ratio": "96.5%"
+    },
+    {
+      "firm": "1",
+      "proId": "1814492",
+      "model": "Intel \u9177\u777f i7 14700K",
+      "score": "1.61851",
+      "rank": 6,
+      "ratio": "95.8%"
+    },
+    {
+      "firm": "1",
+      "proId": "1428845",
+      "model": "Intel \u9177\u777f i7 13700K",
+      "score": "1.61721",
+      "rank": 7,
+      "ratio": "95.1%"
+    },
+    {
+      "firm": "2",
+      "proId": "2018967",
+      "model": "AMD Ryzen 5 9600X",
+      "score": "1.60194",
+      "rank": 8,
+      "ratio": "94.4%"
+    },
+    {
+      "firm": "2",
+      "proId": "2113342",
+      "model": "AMD Ryzen 7 9800X3D\uff08\u6e38\u620f\uff09",
+      "score": "1.60047",
+      "rank": 9,
+      "ratio": "93.7%"
+    },
+    {
+      "firm": "2",
+      "proId": "1440581",
+      "model": "AMD Ryzen 9 7950X3D(\u6e38\u620f\uff09",
+      "score": "1.58947",
+      "rank": 10,
+      "ratio": "93%"
+    },
+    {
+      "firm": "1",
+      "proId": "2110066",
+      "model": "Intel \u9177\u777f Ultra 9 285K",
+      "score": "1.58601",
+      "rank": 11,
+      "ratio": "92.3%"
+    },
+    {
+      "firm": "2",
+      "proId": "1424741",
+      "model": "AMD Ryzen 9 7950X",
+      "score": "1.58512",
+      "rank": 12,
+      "ratio": "91.6%"
+    },
+    {
+      "firm": "2",
+      "proId": "1424742",
+      "model": "AMD Ryzen 9 7900X",
+      "score": "1.58345",
+      "rank": 13,
+      "ratio": "90.9%"
+    },
+    {
+      "firm": "2",
+      "proId": "1440585",
+      "model": "AMD Ryzen 7 7800X3D\uff08\u6e38\u620f\uff09",
+      "score": "1.56477",
+      "rank": 14,
+      "ratio": "90.2%"
+    },
+    {
+      "firm": "2",
+      "proId": "1424745",
+      "model": "AMD Ryzen 7 7700X",
+      "score": "1.55194",
+      "rank": 15,
+      "ratio": "89.5%"
+    },
+    {
+      "firm": "1",
+      "proId": "1929614",
+      "model": "Intel \u9177\u777f i5 14600K",
+      "score": "1.53869",
+      "rank": 16,
+      "ratio": "88.8%"
+    },
+    {
+      "firm": "2",
+      "proId": "1367038",
+      "model": "AMD Ryzen 5 7600X",
+      "score": "1.49847",
+      "rank": 17,
+      "ratio": "88.1%"
+    },
+    {
+      "firm": "1",
+      "proId": "1428846",
+      "model": "Intel \u9177\u777f i5 13600K",
+      "score": "1.47154",
+      "rank": 18,
+      "ratio": "87.4%"
+    },
+    {
+      "firm": "1",
+      "proId": "1356715",
+      "model": "Intel \u9177\u777f i9 12900K",
+      "score": "1.41771",
+      "rank": 19,
+      "ratio": "86.7%"
+    },
+    {
+      "firm": "2",
+      "proId": "1396433",
+      "model": "AMD Ryzen 7 5800X3D",
+      "score": "1.39946",
+      "rank": 20,
+      "ratio": "86%"
+    },
+    {
+      "firm": "1",
+      "proId": "1350558",
+      "model": "Intel \u9177\u777fi9 11900K",
+      "score": "1.36179",
+      "rank": 21,
+      "ratio": "85.3%"
+    },
+    {
+      "firm": "1",
+      "proId": "1393370",
+      "model": "Intel \u9177\u777f i5 12600K",
+      "score": "1.34946",
+      "rank": 22,
+      "ratio": "84.6%"
+    },
+    {
+      "firm": "1",
+      "proId": "1354876",
+      "model": "Intel \u9177\u777fi7 11700K",
+      "score": "1.34255",
+      "rank": 23,
+      "ratio": "83.9%"
+    },
+    {
+      "firm": "2",
+      "proId": "1342304",
+      "model": "AMD Ryzen 9 5950X",
+      "score": "1.31947",
+      "rank": 24,
+      "ratio": "83.2%"
+    },
+    {
+      "firm": "2",
+      "proId": "1340449",
+      "model": "AMD Ryzen 9 5900X",
+      "score": "1.30853",
+      "rank": 25,
+      "ratio": "82.5%"
+    },
+    {
+      "firm": "2",
+      "proId": "1342130",
+      "model": "AMD Ryzen 7 5800X",
+      "score": "1.30671",
+      "rank": 26,
+      "ratio": "81.8%"
+    },
+    {
+      "firm": "1",
+      "proId": "1360148",
+      "model": "Intel \u9177\u777fi5 11600K",
+      "score": "1.25743",
+      "rank": 27,
+      "ratio": "81.1%"
+    },
+    {
+      "firm": "2",
+      "proId": "1342305",
+      "model": "AMD Ryzen 5 5600X",
+      "score": "1.25661",
+      "rank": 28,
+      "ratio": "80.4%"
+    },
+    {
+      "firm": "2",
+      "proId": "1355716",
+      "model": "AMD Ryzen 7 5700G",
+      "score": "1.20699",
+      "rank": 29,
+      "ratio": "79.7%"
+    },
+    {
+      "firm": "2",
+      "proId": "1366838",
+      "model": "AMD Ryzen 5 5600G",
+      "score": "1.17827",
+      "rank": 30,
+      "ratio": "79%"
+    },
+    {
+      "firm": "1",
+      "proId": "1299169",
+      "model": "Intel \u9177\u777fi7 10700K",
+      "score": "1.14581",
+      "rank": 31,
+      "ratio": "78.3%"
+    },
+    {
+      "firm": "1",
+      "proId": "1276748",
+      "model": "Intel \u9177\u777fi9 9900KS",
+      "score": "1.12951",
+      "rank": 32,
+      "ratio": "77.6%"
+    },
+    {
+      "firm": "1",
+      "proId": "1307608",
+      "model": "Intel \u9177\u777fi9 10900K",
+      "score": "1.12945",
+      "rank": 33,
+      "ratio": "76.9%"
+    },
+    {
+      "firm": "1",
+      "proId": "1233484",
+      "model": "Intel \u9177\u777fi9 9900K",
+      "score": "1.12564",
+      "rank": 34,
+      "ratio": "76.2%"
+    },
+    {
+      "firm": "2",
+      "proId": "1403086",
+      "model": "AMD Ryzen 5 5500",
+      "score": "1.11459",
+      "rank": 35,
+      "ratio": "75.5%"
+    },
+    {
+      "firm": "1",
+      "proId": "1233483",
+      "model": "Intel \u9177\u777fi7 9700K",
+      "score": "1.09616",
+      "rank": 36,
+      "ratio": "74.8%"
+    },
+    {
+      "firm": "1",
+      "proId": "1293662",
+      "model": "Intel \u9177\u777fi9 10900X",
+      "score": "1.05688",
+      "rank": 37,
+      "ratio": "74.1%"
+    },
+    {
+      "firm": "1",
+      "proId": "1384471",
+      "model": "Intel \u9177\u777fi3 10325",
+      "score": "1.05263",
+      "rank": 38,
+      "ratio": "73.4%"
+    },
+    {
+      "firm": "1",
+      "proId": "1295319",
+      "model": "Intel \u9177\u777fi9 10980XE",
+      "score": "1.05160",
+      "rank": 39,
+      "ratio": "72.7%"
+    },
+    {
+      "firm": "1",
+      "proId": "1307622",
+      "model": "Intel \u9177\u777fi5 10600K",
+      "score": "1.04999",
+      "rank": 40,
+      "ratio": "72%"
+    },
+    {
+      "firm": "1",
+      "proId": "1177026",
+      "model": "Intel \u9177\u777fi7 8700K",
+      "score": "1.04548",
+      "rank": 41,
+      "ratio": "71.3%"
+    },
+    {
+      "firm": "1",
+      "proId": "1321778",
+      "model": "Intel \u9177\u777fi3 10320",
+      "score": "1.03158",
+      "rank": 42,
+      "ratio": "70.6%"
+    },
+    {
+      "firm": "1",
+      "proId": "1233481",
+      "model": "Intel \u9177\u777fi5 9600K",
+      "score": "1.02144",
+      "rank": 43,
+      "ratio": "69.9%"
+    },
+    {
+      "firm": "1",
+      "proId": "1165092",
+      "model": "Intel \u9177\u777fi7 7740X",
+      "score": "1.01788",
+      "rank": 44,
+      "ratio": "69.2%"
+    },
+    {
+      "firm": "2",
+      "proId": "1296984",
+      "model": "AMD Ryzen ThreadRipper 3970X",
+      "score": "1.01328",
+      "rank": 45,
+      "ratio": "68.5%"
+    },
+    {
+      "firm": "1",
+      "proId": "1172347",
+      "model": "Intel \u9177\u777fi9 7900X",
+      "score": "1.00215",
+      "rank": 46,
+      "ratio": "67.8%"
+    },
+    {
+      "firm": "1",
+      "proId": "1157756",
+      "model": "Intel \u9177\u777fi7 7700K",
+      "score": "1.00000",
+      "rank": 47,
+      "ratio": "67.1%"
+    },
+    {
+      "firm": "2",
+      "proId": "1276702",
+      "model": "AMD Ryzen 9 3900X",
+      "score": "0.99544",
+      "rank": 48,
+      "ratio": "66.4%"
+    },
+    {
+      "firm": "2",
+      "proId": "1320218",
+      "model": "AMD Ryzen 3 3300X",
+      "score": "0.98960",
+      "rank": 49,
+      "ratio": "65.7%"
+    },
+    {
+      "firm": "2",
+      "proId": "1276700",
+      "model": "AMD Ryzen 7 3700X",
+      "score": "0.98599",
+      "rank": 50,
+      "ratio": "65%"
+    },
+    {
+      "firm": "2",
+      "proId": "1296983",
+      "model": "AMD Ryzen ThreadRipper 3960X",
+      "score": "0.98242",
+      "rank": 51,
+      "ratio": "64.3%"
+    },
+    {
+      "firm": "1",
+      "proId": "1369031",
+      "model": "Intel \u9177\u777fi3 10105F",
+      "score": "0.97895",
+      "rank": 52,
+      "ratio": "63.6%"
+    },
+    {
+      "firm": "1",
+      "proId": "1359645",
+      "model": "Intel \u9177\u777fi3 10105",
+      "score": "0.97895",
+      "rank": 53,
+      "ratio": "62.9%"
+    },
+    {
+      "firm": "1",
+      "proId": "1177031",
+      "model": "Intel \u9177\u777fi5 8600K",
+      "score": "0.96852",
+      "rank": 54,
+      "ratio": "62.2%"
+    },
+    {
+      "firm": "1",
+      "proId": "1249008",
+      "model": "Intel \u9177\u777fi5 9600KF",
+      "score": "0.95889",
+      "rank": 55,
+      "ratio": "61.5%"
+    },
+    {
+      "firm": "1",
+      "proId": "1296179",
+      "model": "Intel \u9177\u777fi3 10100",
+      "score": "0.95263",
+      "rank": 56,
+      "ratio": "60.8%"
+    },
+    {
+      "firm": "1",
+      "proId": "381265",
+      "model": "Intel \u9177\u777fi7 4790K",
+      "score": "0.94501",
+      "rank": 57,
+      "ratio": "60.1%"
+    },
+    {
+      "firm": "1",
+      "proId": "1159483",
+      "model": "Intel \u9177\u777fi7 7820X",
+      "score": "0.94452",
+      "rank": 58,
+      "ratio": "59.4%"
+    },
+    {
+      "firm": "2",
+      "proId": "1277878",
+      "model": "AMD Ryzen 5 3600",
+      "score": "0.92254",
+      "rank": 59,
+      "ratio": "58.7%"
+    },
+    {
+      "firm": "1",
+      "proId": "1098616",
+      "model": "Intel \u9177\u777fi7 6700K",
+      "score": "0.92166",
+      "rank": 60,
+      "ratio": "58%"
+    },
+    {
+      "firm": "1",
+      "proId": "1172351",
+      "model": "Intel \u9177\u777fi9 7980XE",
+      "score": "0.91610",
+      "rank": 61,
+      "ratio": "57.3%"
+    },
+    {
+      "firm": "2",
+      "proId": "1295080",
+      "model": "AMD Ryzen 5 3500X",
+      "score": "0.90983",
+      "rank": 62,
+      "ratio": "56.6%"
+    },
+    {
+      "firm": "1",
+      "proId": "1249003",
+      "model": "Intel \u9177\u777fi5 9400F",
+      "score": "0.90473",
+      "rank": 63,
+      "ratio": "55.9%"
+    },
+    {
+      "firm": "1",
+      "proId": "1159128",
+      "model": "Intel \u9177\u777fi7 7700",
+      "score": "0.90000",
+      "rank": 64,
+      "ratio": "55.2%"
+    },
+    {
+      "firm": "1",
+      "proId": "1307002",
+      "model": "Intel \u9177\u777fi5 10400F",
+      "score": "0.88944",
+      "rank": 65,
+      "ratio": "54.5%"
+    },
+    {
+      "firm": "1",
+      "proId": "1159472",
+      "model": "Intel \u9177\u777fi7 7800X",
+      "score": "0.88551",
+      "rank": 66,
+      "ratio": "53.8%"
+    },
+    {
+      "firm": "1",
+      "proId": "365189",
+      "model": "Intel \u9177\u777fi7 4960X",
+      "score": "0.88093",
+      "rank": 67,
+      "ratio": "53.1%"
+    },
+    {
+      "firm": "1",
+      "proId": "1177032",
+      "model": "Intel \u9177\u777fi5 8400",
+      "score": "0.87895",
+      "rank": 68,
+      "ratio": "52.4%"
+    },
+    {
+      "firm": "2",
+      "proId": "1204791",
+      "model": "AMD Ryzen 7 2700X",
+      "score": "0.87023",
+      "rank": 69,
+      "ratio": "51.7%"
+    },
+    {
+      "firm": "1",
+      "proId": "357351",
+      "model": "Intel \u9177\u777fi7 4770K",
+      "score": "0.86613",
+      "rank": 70,
+      "ratio": "51%"
+    },
+    {
+      "firm": "2",
+      "proId": "1320221",
+      "model": "AMD Ryzen 3 3100",
+      "score": "0.86210",
+      "rank": 71,
+      "ratio": "50.3%"
+    },
+    {
+      "firm": "1",
+      "proId": "1098709",
+      "model": "Intel \u9177\u777fi5 6600K",
+      "score": "0.85470",
+      "rank": 72,
+      "ratio": "49.7%"
+    },
+    {
+      "firm": "2",
+      "proId": "1212016",
+      "model": "AMD Ryzen 5 2600X",
+      "score": "0.84508",
+      "rank": 73,
+      "ratio": "49%"
+    },
+    {
+      "firm": "1",
+      "proId": "337888",
+      "model": "Intel \u9177\u777fi7 3970X",
+      "score": "0.84489",
+      "rank": 74,
+      "ratio": "48.3%"
+    },
+    {
+      "firm": "1",
+      "proId": "353793",
+      "model": "Intel \u9177\u777fi5 4670K",
+      "score": "0.84094",
+      "rank": 75,
+      "ratio": "47.6%"
+    },
+    {
+      "firm": "1",
+      "proId": "306824",
+      "model": "Intel \u9177\u777fi7 3770K",
+      "score": "0.83789",
+      "rank": 76,
+      "ratio": "46.9%"
+    },
+    {
+      "firm": "2",
+      "proId": "1173435",
+      "model": "AMD Ryzen Threadripper 1950X",
+      "score": "0.83532",
+      "rank": 77,
+      "ratio": "46.2%"
+    },
+    {
+      "firm": "1",
+      "proId": "1116837",
+      "model": "Intel Xeon E3-1230 v5",
+      "score": "0.83529",
+      "rank": 78,
+      "ratio": "45.5%"
+    },
+    {
+      "firm": "2",
+      "proId": "1227461",
+      "model": "AMD Ryzen Threadripper 2920X",
+      "score": "0.83079",
+      "rank": 79,
+      "ratio": "44.8%"
+    },
+    {
+      "firm": "2",
+      "proId": "1164799",
+      "model": "AMD Ryzen 7 1800X",
+      "score": "0.81774",
+      "rank": 80,
+      "ratio": "44.1%"
+    },
+    {
+      "firm": "2",
+      "proId": "1173190",
+      "model": "AMD Ryzen Threadripper 1920X",
+      "score": "0.81675",
+      "rank": 81,
+      "ratio": "43.4%"
+    },
+    {
+      "firm": "1",
+      "proId": "355694",
+      "model": "Intel Xeon E3-1230 v3",
+      "score": "0.81585",
+      "rank": 82,
+      "ratio": "42.7%"
+    },
+    {
+      "firm": "1",
+      "proId": "1179798",
+      "model": "Intel \u9177\u777fi3 8100",
+      "score": "0.81103",
+      "rank": 83,
+      "ratio": "42%"
+    },
+    {
+      "firm": "1",
+      "proId": "312491",
+      "model": "Intel \u9177\u777fi5 3570K",
+      "score": "0.80851",
+      "rank": 84,
+      "ratio": "41.3%"
+    },
+    {
+      "firm": "1",
+      "proId": "1148872",
+      "model": "Intel \u9177\u777fi7 6900K",
+      "score": "0.80785",
+      "rank": 85,
+      "ratio": "40.6%"
+    },
+    {
+      "firm": "1",
+      "proId": "310506",
+      "model": "Intel \u9177\u777fi5 2550K",
+      "score": "0.80778",
+      "rank": 86,
+      "ratio": "39.9%"
+    },
+    {
+      "firm": "2",
+      "proId": "1209679",
+      "model": "AMD Ryzen 5 2600",
+      "score": "0.80357",
+      "rank": 87,
+      "ratio": "39.2%"
+    },
+    {
+      "firm": "1",
+      "proId": "1159124",
+      "model": "Intel \u9177\u777fi5 7500",
+      "score": "0.79848",
+      "rank": 88,
+      "ratio": "38.5%"
+    },
+    {
+      "firm": "1",
+      "proId": "384515",
+      "model": "Intel \u9177\u777fi7 5930K",
+      "score": "0.79822",
+      "rank": 89,
+      "ratio": "37.8%"
+    },
+    {
+      "firm": "1",
+      "proId": "353796",
+      "model": "Intel \u9177\u777fi5 4570",
+      "score": "0.79822",
+      "rank": 90,
+      "ratio": "37.1%"
+    },
+    {
+      "firm": "1",
+      "proId": "299791",
+      "model": "Intel \u9177\u777fi7 2700K",
+      "score": "0.78881",
+      "rank": 91,
+      "ratio": "36.4%"
+    },
+    {
+      "firm": "1",
+      "proId": "1148877",
+      "model": "Intel \u9177\u777fi7 6800K",
+      "score": "0.78743",
+      "rank": 92,
+      "ratio": "35.7%"
+    },
+    {
+      "firm": "1",
+      "proId": "383313",
+      "model": "Intel \u9177\u777fi5 4690K",
+      "score": "0.78636",
+      "rank": 93,
+      "ratio": "35%"
+    },
+    {
+      "firm": "2",
+      "proId": "1164801",
+      "model": "AMD Ryzen 7 1700X",
+      "score": "0.78310",
+      "rank": 94,
+      "ratio": "34.3%"
+    },
+    {
+      "firm": "1",
+      "proId": "335273",
+      "model": "Intel \u9177\u777fi5 3470",
+      "score": "0.77618",
+      "rank": 95,
+      "ratio": "33.6%"
+    },
+    {
+      "firm": "1",
+      "proId": "253836",
+      "model": "Intel \u9177\u777fi5 2500K",
+      "score": "0.77603",
+      "rank": 96,
+      "ratio": "32.9%"
+    },
+    {
+      "firm": "1",
+      "proId": "309339",
+      "model": "Intel Xeon E3-1230 v2",
+      "score": "0.77440",
+      "rank": 97,
+      "ratio": "32.2%"
+    },
+    {
+      "firm": "2",
+      "proId": "1164805",
+      "model": "AMD Ryzen 5 1600X",
+      "score": "0.76924",
+      "rank": 98,
+      "ratio": "31.5%"
+    },
+    {
+      "firm": "1",
+      "proId": "1159122",
+      "model": "Intel \u9177\u777fi5 7400",
+      "score": "0.76862",
+      "rank": 99,
+      "ratio": "30.8%"
+    },
+    {
+      "firm": "1",
+      "proId": "1138731",
+      "model": "Intel Xeon E3-1220 v5",
+      "score": "0.76395",
+      "rank": 100,
+      "ratio": "30.1%"
+    },
+    {
+      "firm": "1",
+      "proId": "392931",
+      "model": "Intel \u9177\u777fi3 4160",
+      "score": "0.75964",
+      "rank": 101,
+      "ratio": "29.4%"
+    },
+    {
+      "firm": "1",
+      "proId": "1141735",
+      "model": "Intel \u9177\u777fi7 6950X",
+      "score": "0.75751",
+      "rank": 102,
+      "ratio": "28.7%"
+    },
+    {
+      "firm": "2",
+      "proId": "1205087",
+      "model": "AMD Ryzen 5 2400G",
+      "score": "0.75575",
+      "rank": 103,
+      "ratio": "28%"
+    },
+    {
+      "firm": "2",
+      "proId": "1227460",
+      "model": "AMD Ryzen Threadripper 2970WX",
+      "score": "0.75154",
+      "rank": 104,
+      "ratio": "27.3%"
+    },
+    {
+      "firm": "2",
+      "proId": "1164803",
+      "model": "AMD Ryzen 7 1700",
+      "score": "0.75114",
+      "rank": 105,
+      "ratio": "26.6%"
+    },
+    {
+      "firm": "2",
+      "proId": "1176878",
+      "model": "AMD Ryzen 3 1300X",
+      "score": "0.75069",
+      "rank": 106,
+      "ratio": "25.9%"
+    },
+    {
+      "firm": "1",
+      "proId": "384514",
+      "model": "Intel \u9177\u777fi7 5960X",
+      "score": "0.73702",
+      "rank": 107,
+      "ratio": "25.2%"
+    },
+    {
+      "firm": "2",
+      "proId": "1213501",
+      "model": "AMD Ryzen 7 2700",
+      "score": "0.73329",
+      "rank": 108,
+      "ratio": "24.5%"
+    },
+    {
+      "firm": "1",
+      "proId": "252837",
+      "model": "Intel \u9177\u777fi5 2400",
+      "score": "0.72985",
+      "rank": 109,
+      "ratio": "23.8%"
+    },
+    {
+      "firm": "2",
+      "proId": "1227458",
+      "model": "AMD Ryzen Threadripper 2990WX",
+      "score": "0.72181",
+      "rank": 110,
+      "ratio": "23.1%"
+    },
+    {
+      "firm": "1",
+      "proId": "360872",
+      "model": "Intel \u9177\u777fi3 4130",
+      "score": "0.71768",
+      "rank": 111,
+      "ratio": "22.4%"
+    },
+    {
+      "firm": "1",
+      "proId": "370748",
+      "model": "Intel Xeon E5-2680 v2",
+      "score": "0.71161",
+      "rank": 112,
+      "ratio": "21.7%"
+    },
+    {
+      "firm": "1",
+      "proId": "306811",
+      "model": "Intel \u9177\u777fi5 3330",
+      "score": "0.70505",
+      "rank": 113,
+      "ratio": "21%"
+    },
+    {
+      "firm": "1",
+      "proId": "1165129",
+      "model": "Intel \u5954\u817e G4560",
+      "score": "0.68507",
+      "rank": 114,
+      "ratio": "20.3%"
+    },
+    {
+      "firm": "1",
+      "proId": "384038",
+      "model": "Intel \u5954\u817e G3258",
+      "score": "0.68269",
+      "rank": 115,
+      "ratio": "19.6%"
+    },
+    {
+      "firm": "2",
+      "proId": "1205089",
+      "model": "AMD Ryzen 3 2200G",
+      "score": "0.67853",
+      "rank": 116,
+      "ratio": "18.9%"
+    },
+    {
+      "firm": "1",
+      "proId": "332885",
+      "model": "Intel \u9177\u777fi3 3220",
+      "score": "0.67506",
+      "rank": 117,
+      "ratio": "18.2%"
+    },
+    {
+      "firm": "1",
+      "proId": "305068",
+      "model": "Intel \u9177\u777fi3 2120",
+      "score": "0.65966",
+      "rank": 118,
+      "ratio": "17.5%"
+    },
+    {
+      "firm": "2",
+      "proId": "1164811",
+      "model": "AMD Ryzen 5 1400",
+      "score": "0.65616",
+      "rank": 119,
+      "ratio": "16.8%"
+    },
+    {
+      "firm": "1",
+      "proId": "364437",
+      "model": "Intel \u5954\u817e G3220",
+      "score": "0.64530",
+      "rank": 120,
+      "ratio": "16.1%"
+    },
+    {
+      "firm": "1",
+      "proId": "338280",
+      "model": "Intel \u5954\u817e G2020",
+      "score": "0.63783",
+      "rank": 121,
+      "ratio": "15.4%"
+    },
+    {
+      "firm": "2",
+      "proId": "1234727",
+      "model": "AMD Athlon 200GE",
+      "score": "0.61701",
+      "rank": 122,
+      "ratio": "14.7%"
+    },
+    {
+      "firm": "1",
+      "proId": "346001",
+      "model": "Intel \u5954\u817e G2010",
+      "score": "0.61133",
+      "rank": 123,
+      "ratio": "14%"
+    },
+    {
+      "firm": "1",
+      "proId": "264655",
+      "model": "Intel \u5954\u817e G840",
+      "score": "0.56641",
+      "rank": 124,
+      "ratio": "13.3%"
+    },
+    {
+      "firm": "1",
+      "proId": "370746",
+      "model": "Intel Xeon E5-2670 v2",
+      "score": "0.55188",
+      "rank": 125,
+      "ratio": "12.6%"
+    },
+    {
+      "firm": "1",
+      "proId": "343782",
+      "model": "Intel \u5954\u817e G645",
+      "score": "0.53461",
+      "rank": 126,
+      "ratio": "11.9%"
+    },
+    {
+      "firm": "1",
+      "proId": "323446",
+      "model": "Intel \u5954\u817e G630",
+      "score": "0.53285",
+      "rank": 127,
+      "ratio": "11.2%"
+    },
+    {
+      "firm": "2",
+      "proId": "368780",
+      "model": "AMD A10-7850K",
+      "score": "0.44882",
+      "rank": 128,
+      "ratio": "10.5%"
+    },
+    {
+      "firm": "2",
+      "proId": "385439",
+      "model": "AMD FX-9590",
+      "score": "0.41788",
+      "rank": 129,
+      "ratio": "9.8%"
+    },
+    {
+      "firm": "2",
+      "proId": "334052",
+      "model": "AMD FX-8350",
+      "score": "0.41141",
+      "rank": 130,
+      "ratio": "9.1%"
+    },
+    {
+      "firm": "2",
+      "proId": "389213",
+      "model": "AMD \u901f\u9f99 X4 860K",
+      "score": "0.40772",
+      "rank": 131,
+      "ratio": "8.4%"
+    },
+    {
+      "firm": "2",
+      "proId": "396542",
+      "model": "AMD A8-7650K",
+      "score": "0.37257",
+      "rank": 132,
+      "ratio": "7.7%"
+    }
+  ],
+  "game": [
+    {
+      "proId": "2113342",
+      "score": 1000,
+      "rank": 1,
+      "firm": 2,
+      "model": "AMD Ryzen 7 9800X3D",
+      "ratio": "98.3%"
+    },
+    {
+      "proId": "1440585",
+      "score": 995,
+      "rank": 2,
+      "firm": 2,
+      "model": "AMD Ryzen 7 7800X3D",
+      "ratio": "96.7%"
+    },
+    {
+      "proId": "1440581",
+      "score": 992,
+      "rank": 3,
+      "firm": 2,
+      "model": "AMD Ryzen 9 7950X3D",
+      "ratio": "95%"
+    },
+    {
+      "proId": "1440582",
+      "score": 991,
+      "rank": 4,
+      "firm": 2,
+      "model": "AMD Ryzen 9 7900X3D",
+      "ratio": "93.3%"
+    },
+    {
+      "proId": "1991155",
+      "score": 990,
+      "rank": 5,
+      "firm": 1,
+      "model": "Intel \u9177\u777f i9 14900KS",
+      "ratio": "91.7%"
+    },
+    {
+      "proId": "1805095",
+      "score": 980,
+      "rank": 6,
+      "firm": 1,
+      "model": "Intel \u9177\u777f i9 14900K",
+      "ratio": "90%"
+    },
+    {
+      "proId": "1929608",
+      "score": 979,
+      "rank": 7,
+      "firm": 1,
+      "model": "Intel \u9177\u777f i9 14900KF",
+      "ratio": "88.3%"
+    },
+    {
+      "proId": "2018964",
+      "score": 920,
+      "rank": 8,
+      "firm": 2,
+      "model": "AMD Ryzen 9 9950X",
+      "ratio": "86.7%"
+    },
+    {
+      "proId": "2018965",
+      "score": 910,
+      "rank": 9,
+      "firm": 2,
+      "model": "AMD Ryzen 9 9900X",
+      "ratio": "85%"
+    },
+    {
+      "proId": "2018966",
+      "score": 900,
+      "rank": 10,
+      "firm": 2,
+      "model": "AMD Ryzen 7 9700X",
+      "ratio": "83.3%"
+    },
+    {
+      "proId": "1454017",
+      "score": 895,
+      "rank": 11,
+      "firm": 1,
+      "model": "Intel \u9177\u777f i9 13900KS",
+      "ratio": "81.7%"
+    },
+    {
+      "proId": "1814492",
+      "score": 890,
+      "rank": 12,
+      "firm": 1,
+      "model": "Intel \u9177\u777f i7 14700K",
+      "ratio": "80%"
+    },
+    {
+      "proId": "1929613",
+      "score": 889,
+      "rank": 13,
+      "firm": 1,
+      "model": "Intel \u9177\u777f i7 14700KF",
+      "ratio": "78.3%"
+    },
+    {
+      "proId": "2110066",
+      "score": 885,
+      "rank": 14,
+      "firm": 1,
+      "model": "Intel \u9177\u777f Ultra 9 285K",
+      "ratio": "76.7%"
+    },
+    {
+      "proId": "1428844",
+      "score": 880,
+      "rank": 15,
+      "firm": 1,
+      "model": "Intel \u9177\u777f i9 13900K",
+      "ratio": "75%"
+    },
+    {
+      "proId": "1428011",
+      "score": 879,
+      "rank": 16,
+      "firm": 1,
+      "model": "Intel \u9177\u777f i9 13900KF",
+      "ratio": "73.3%"
+    },
+    {
+      "proId": "2018967",
+      "score": 860,
+      "rank": 17,
+      "firm": 2,
+      "model": "AMD Ryzen 5 9600X",
+      "ratio": "71.7%"
+    },
+    {
+      "proId": "1424741",
+      "score": 850,
+      "rank": 18,
+      "firm": 2,
+      "model": "AMD Ryzen 9 7950X",
+      "ratio": "70%"
+    },
+    {
+      "proId": "1428845",
+      "score": 840,
+      "rank": 19,
+      "firm": 1,
+      "model": "Intel \u9177\u777f i7 13700K",
+      "ratio": "68.3%"
+    },
+    {
+      "proId": "1429329",
+      "score": 839,
+      "rank": 20,
+      "firm": 1,
+      "model": "Intel \u9177\u777f i7 13700KF",
+      "ratio": "66.7%"
+    },
+    {
+      "proId": "1424742",
+      "score": 830,
+      "rank": 21,
+      "firm": 2,
+      "model": "AMD Ryzen 9 7900X",
+      "ratio": "65%"
+    },
+    {
+      "proId": "1424745",
+      "score": 830,
+      "rank": 22,
+      "firm": 2,
+      "model": "AMD Ryzen 7 7700X",
+      "ratio": "63.3%"
+    },
+    {
+      "proId": "1367038",
+      "score": 820,
+      "rank": 23,
+      "firm": 2,
+      "model": "AMD Ryzen 5 7600X",
+      "ratio": "61.7%"
+    },
+    {
+      "proId": "1929614",
+      "score": 810,
+      "rank": 24,
+      "firm": 1,
+      "model": "Intel \u9177\u777f i5 14600K",
+      "ratio": "60%"
+    },
+    {
+      "proId": "1440235",
+      "score": 809,
+      "rank": 25,
+      "firm": 1,
+      "model": "Intel \u9177\u777f i9 13900",
+      "ratio": "58.3%"
+    },
+    {
+      "proId": "1929615",
+      "score": 809,
+      "rank": 26,
+      "firm": 1,
+      "model": "Intel \u9177\u777f i5 14600KF",
+      "ratio": "56.7%"
+    },
+    {
+      "proId": "1440236",
+      "score": 808,
+      "rank": 27,
+      "firm": 1,
+      "model": "Intel \u9177\u777f i9 13900F",
+      "ratio": "55%"
+    },
+    {
+      "proId": "1428846",
+      "score": 800,
+      "rank": 28,
+      "firm": 1,
+      "model": "Intel \u9177\u777f i5 13600K",
+      "ratio": "53.3%"
+    },
+    {
+      "proId": "1440583",
+      "score": 800,
+      "rank": 29,
+      "firm": 2,
+      "model": "AMD Ryzen 9 7900",
+      "ratio": "51.7%"
+    },
+    {
+      "proId": "1429351",
+      "score": 799,
+      "rank": 30,
+      "firm": 1,
+      "model": "Intel \u9177\u777f i5 13600KF",
+      "ratio": "50%"
+    },
+    {
+      "proId": "1980284",
+      "score": 785,
+      "rank": 31,
+      "firm": 2,
+      "model": "AMD Ryzen 7 8700G",
+      "ratio": "48.3%"
+    },
+    {
+      "proId": "2110069",
+      "score": 780,
+      "rank": 32,
+      "firm": 1,
+      "model": "Intel \u9177\u777f Ultra 5 245K",
+      "ratio": "46.7%"
+    },
+    {
+      "proId": "1980283",
+      "score": 775,
+      "rank": 33,
+      "firm": 2,
+      "model": "AMD Ryzen 5 8600G",
+      "ratio": "45%"
+    },
+    {
+      "proId": "1440587",
+      "score": 750,
+      "rank": 34,
+      "firm": 2,
+      "model": "AMD Ryzen 5 7600",
+      "ratio": "43.3%"
+    },
+    {
+      "proId": "1796349",
+      "score": 740,
+      "rank": 35,
+      "firm": 2,
+      "model": "AMD Ryzen 5 7500F",
+      "ratio": "41.7%"
+    },
+    {
+      "proId": "1972499",
+      "score": 730,
+      "rank": 36,
+      "firm": 1,
+      "model": "Intel \u9177\u777f i5 14400",
+      "ratio": "40%"
+    },
+    {
+      "proId": "1972500",
+      "score": 729,
+      "rank": 37,
+      "firm": 1,
+      "model": "Intel \u9177\u777f i5 14400F",
+      "ratio": "38.3%"
+    },
+    {
+      "proId": "1457696",
+      "score": 720,
+      "rank": 38,
+      "firm": 1,
+      "model": "Intel \u9177\u777f i5 13490F",
+      "ratio": "36.7%"
+    },
+    {
+      "proId": "1440553",
+      "score": 710,
+      "rank": 39,
+      "firm": 1,
+      "model": "Intel \u9177\u777f i5 13400",
+      "ratio": "35%"
+    },
+    {
+      "proId": "1440555",
+      "score": 709,
+      "rank": 40,
+      "firm": 1,
+      "model": "Intel \u9177\u777f i5 13400F",
+      "ratio": "33.3%"
+    }
+  ]
+})

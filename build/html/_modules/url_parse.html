@@ -58,6 +58,8 @@
 <span class="sd">    该函数向 URL &quot;https://cpu.zol.com.cn/router.php&quot; 发送带有特定参数和头部的 GET 请求。</span>
 <span class="sd">    它期望一个 JSONP 响应并从中提取 JSON 数据。</span>
 
+<span class="sd">    示例url：https://cpu.zol.com.cn/router.php?c=Tianti_Cpu&amp;a=GetList&amp;callback=$.getAllList</span>
+
 <span class="sd">    返回:</span>
 <span class="sd">        dict: 如果请求成功且 JSON 数据提取成功，则返回包含 JSON 数据的字典。</span>
 <span class="sd">        None: 如果请求失败或无法提取 JSON 数据。</span>
@@ -102,12 +104,12 @@
 <span class="k">def</span> <span class="nf">parse_cpu_list</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    解析 CPU 数据列表并按 CPU ID 组织数据。</span>
-<span class="sd">    </span>
+
 <span class="sd">    参数:</span>
 <span class="sd">        data (dict): 包含按字段分类的 CPU 数据的字典，例如 &quot;colligate&quot;, &quot;multiCore&quot;, </span>
 <span class="sd">                     &quot;singleCore&quot;, 和 &quot;game&quot;。每个字段映射到一个字典列表，每个字典</span>
 <span class="sd">                     代表一个 CPU，包含 &#39;proId&#39;, &#39;model&#39;, &#39;firm&#39;, &#39;rank&#39; 等键。</span>
-<span class="sd">    </span>
+
 <span class="sd">    返回:</span>
 <span class="sd">        tuple: 包含以下内容的元组:</span>
 <span class="sd">            - cpu_data (dict): 一个字典，每个键是 CPU ID (proId)，值是另一个字典，</span>
@@ -151,17 +153,18 @@
 <a class="viewcode-back" href="../url_parse.html#url_parse.fetch_cpu_data_json">[文档]</a>
 <span class="k">def</span> <span class="nf">fetch_cpu_data_json</span><span class="p">(</span><span class="n">product_ids</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    示例url : https://cpu.zol.com.cn/router.php?c=Tianti_Cpu&amp;a=GetProInfo&amp;proId=1424741&amp;type=undefined&amp;callback=$.renderItemfunction</span>
 <span class="sd">    获取指定产品 ID 列表的 CPU 数据（JSON 格式）。</span>
-<span class="sd">    </span>
+
 <span class="sd">    参数:</span>
 <span class="sd">        product_ids (list): 需要获取 CPU 数据的产品 ID 列表。</span>
-<span class="sd">    </span>
+
 <span class="sd">    返回:</span>
 <span class="sd">        list: 包含 CPU 数据的字典列表（JSON 格式）。</span>
-<span class="sd">    </span>
+
 <span class="sd">    异常:</span>
 <span class="sd">        requests.exceptions.RequestException: 如果 HTTP 请求有问题。</span>
-<span class="sd">    </span>
+
 <span class="sd">    示例:</span>
 <span class="sd">        product_ids = [12345, 67890]</span>
 <span class="sd">        cpu_data = fetch_cpu_data_json(product_ids)</span>
@@ -300,7 +303,7 @@
 <span class="sd">    3. 查找所有&lt;p&gt;标签并遍历它们以提取商品名称和价格。</span>
 <span class="sd">    4. 将商品名称和价格打印到控制台。</span>
 <span class="sd">    5. 如果请求失败，打印响应的状态码。</span>
-<span class="sd">    &quot;&quot;&quot;</span> 
+<span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="n">headers</span><span class="p">)</span>
     <span class="k">if</span> <span class="n">response</span><span class="o">.</span><span class="n">status_code</span> <span class="o">==</span> <span class="mi">200</span><span class="p">:</span>
         <span class="n">soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">text</span><span class="p">,</span> <span class="s1">&#39;html.parser&#39;</span><span class="p">)</span>

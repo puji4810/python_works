@@ -42,7 +42,6 @@
 <div class="viewcode-block" id="dash_init">
 <a class="viewcode-back" href="../see.html#see.dash_init">[文档]</a>
 <span class="k">def</span> <span class="nf">dash_init</span><span class="p">():</span>
-<span class="w">    </span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    初始化 Dash 应用程序并设置包含各种可视化的布局。</span>
 <span class="sd">    返回：</span>
@@ -126,10 +125,12 @@
     <span class="k">return</span> <span class="n">app</span><span class="p">,</span> <span class="n">df</span></div>
 
 
+
 <span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
     <span class="n">app</span><span class="p">,</span> <span class="n">df</span> <span class="o">=</span> <span class="n">dash_init</span><span class="p">()</span>
     <span class="n">sd</span><span class="o">.</span><span class="n">save_as_excel</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
     <span class="n">sd</span><span class="o">.</span><span class="n">matplotlib_analysis</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">host</span><span class="o">=</span><span class="s1">&#39;0.0.0.0&#39;</span><span class="p">,</span> <span class="n">port</span><span class="o">=</span><span class="s1">&#39;8050&#39;</span><span class="p">)</span>
     <span class="n">app</span><span class="o">.</span><span class="n">run_server</span><span class="p">(</span><span class="n">debug</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </pre></div>
 

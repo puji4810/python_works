@@ -1,0 +1,28 @@
+$.renderItemfunction({
+  "param": {
+    "proId": "1424741",
+    "model": "AMD Ryzen 9 7950X",
+    "docId": "",
+    "firm": "2",
+    "series": "AMD Ryzen 9 7000\u7cfb\u5217",
+    "core": "",
+    "slot": "",
+    "technology": "5\u7eb3\u7c73",
+    "frequency": "4.5GHz",
+    "overclocking": "",
+    "coreThread": "\u5341\u516d\u6838\u5fc3\/\u4e09\u5341\u4e8c\u7ebf\u7a0b",
+    "tdp": "170W",
+    "graphics": "AMD Radeon Graphics",
+    "detailUrl": "https:\/\/detail.zol.com.cn\/cpu\/index1424741.shtml",
+    "paramUrl": "https:\/\/detail.zol.com.cn\/1425\/1424741\/param.shtml",
+    "score": "379.8"
+  },
+  "rank": 5,
+  "ratio": "96.5%",
+  "doc": [],
+  "jd": {
+    "price": 3449,
+    "url": "https:\/\/union-click.jd.com\/sem.php?unionId=281&siteid=20170818001&to=https:\/\/item.jd.com\/10061665090514.html"
+  }
+})
+

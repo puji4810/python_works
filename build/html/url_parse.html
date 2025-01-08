@@ -38,7 +38,8 @@
 <dl class="py function">
 <dt class="sig sig-object py" id="url_parse.fetch_cpu_data_json">
 <span class="sig-prename descclassname"><span class="pre">url_parse.</span></span><span class="sig-name descname"><span class="pre">fetch_cpu_data_json</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">product_ids</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/url_parse.html#fetch_cpu_data_json"><span class="viewcode-link"><span class="pre">[源代码]</span></span></a><a class="headerlink" href="#url_parse.fetch_cpu_data_json" title="Link to this definition">¶</a></dt>
-<dd><p>获取指定产品 ID 列表的 CPU 数据（JSON 格式）。</p>
+<dd><p>示例url : <a class="reference external" href="https://cpu.zol.com.cn/router.php?c=Tianti_Cpu&amp;a=GetProInfo&amp;proId=1424741&amp;type=undefined&amp;callback=$.renderItemfunction">https://cpu.zol.com.cn/router.php?c=Tianti_Cpu&amp;a=GetProInfo&amp;proId=1424741&amp;type=undefined&amp;callback=$.renderItemfunction</a>
+获取指定产品 ID 列表的 CPU 数据（JSON 格式）。</p>
 <dl class="simple">
 <dt>参数:</dt><dd><p>product_ids (list): 需要获取 CPU 数据的产品 ID 列表。</p>
 </dd>
@@ -59,6 +60,7 @@ print(cpu_data)</p>
 <dd><p>从指定的 URL 获取 CPU 列表的 JSON 数据。</p>
 <p>该函数向 URL &quot;<a class="reference external" href="https://cpu.zol.com.cn/router.php">https://cpu.zol.com.cn/router.php</a>&quot; 发送带有特定参数和头部的 GET 请求。
 它期望一个 JSONP 响应并从中提取 JSON 数据。</p>
+<p>示例url：<a class="reference external" href="https://cpu.zol.com.cn/router.php?c=Tianti_Cpu&amp;a=GetList&amp;callback=$.getAllList">https://cpu.zol.com.cn/router.php?c=Tianti_Cpu&amp;a=GetList&amp;callback=$.getAllList</a></p>
 <dl class="simple">
 <dt>返回:</dt><dd><p>dict: 如果请求成功且 JSON 数据提取成功，则返回包含 JSON 数据的字典。
 None: 如果请求失败或无法提取 JSON 数据。</p>

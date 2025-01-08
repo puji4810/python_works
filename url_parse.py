@@ -22,6 +22,8 @@ def fetch_cpu_list_json():
     该函数向 URL "https://cpu.zol.com.cn/router.php" 发送带有特定参数和头部的 GET 请求。
     它期望一个 JSONP 响应并从中提取 JSON 数据。
 
+    示例url：https://cpu.zol.com.cn/router.php?c=Tianti_Cpu&a=GetList&callback=$.getAllList
+
     返回:
         dict: 如果请求成功且 JSON 数据提取成功，则返回包含 JSON 数据的字典。
         None: 如果请求失败或无法提取 JSON 数据。
@@ -63,12 +65,12 @@ def fetch_cpu_list_json():
 def parse_cpu_list(data):
     """
     解析 CPU 数据列表并按 CPU ID 组织数据。
-    
+
     参数:
         data (dict): 包含按字段分类的 CPU 数据的字典，例如 "colligate", "multiCore", 
                      "singleCore", 和 "game"。每个字段映射到一个字典列表，每个字典
                      代表一个 CPU，包含 'proId', 'model', 'firm', 'rank' 等键。
-    
+
     返回:
         tuple: 包含以下内容的元组:
             - cpu_data (dict): 一个字典，每个键是 CPU ID (proId)，值是另一个字典，
@@ -109,17 +111,18 @@ def parse_cpu_list(data):
 
 def fetch_cpu_data_json(product_ids):
     """
+    示例url : https://cpu.zol.com.cn/router.php?c=Tianti_Cpu&a=GetProInfo&proId=1424741&type=undefined&callback=$.renderItemfunction
     获取指定产品 ID 列表的 CPU 数据（JSON 格式）。
-    
+
     参数:
         product_ids (list): 需要获取 CPU 数据的产品 ID 列表。
-    
+
     返回:
         list: 包含 CPU 数据的字典列表（JSON 格式）。
-    
+
     异常:
         requests.exceptions.RequestException: 如果 HTTP 请求有问题。
-    
+
     示例:
         product_ids = [12345, 67890]
         cpu_data = fetch_cpu_data_json(product_ids)
@@ -252,7 +255,7 @@ def url_parse_goods(url):
     3. 查找所有<p>标签并遍历它们以提取商品名称和价格。
     4. 将商品名称和价格打印到控制台。
     5. 如果请求失败，打印响应的状态码。
-    """ 
+    """
     response = requests.get(url, headers=headers)
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, 'html.parser')
